@@ -1,0 +1,40 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "globals": {
+    "localStorage": true
+  },
+  "rules": {
+    "semi": [
+      2,
+      "never"
+    ],
+    "padded-blocks": 0,
+    "function-paren-newline": 0,
+    "no-buffer-constructor": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prefer-stateless-function": 0,
+    "react/sort-comp": 0,
+    "no-param-reassign": 0,
+    "no-restricted-globals": 0,
+    "no-restricted-syntax": 0,
+    "no-underscore-dangle": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ]
+  }
+}

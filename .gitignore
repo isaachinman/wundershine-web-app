@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Testing
+coverage
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Production
+build
+dist
+.next
+
+# Misc
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Startseite",
+      "app": "App",
+      "about": "Über uns",
+      "creative": "Kreativ",
+      "shop": "Einkaufen"
+    }
+  }
+}
