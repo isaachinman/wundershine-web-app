@@ -10,7 +10,11 @@
           {
             "root": [
               "./src"
-            ]
+            ],
+            "alias": {
+              "react-flexbox-grid": "react-flexbox-grid/dist/react-flexbox-grid",
+              "react-flexbox-css": "react-flexbox-grid/dist/react-flexbox-grid.css"
+            }
           }
         ],
         [
@@ -31,7 +35,11 @@
           {
             "root": [
               "./src"
-            ]
+            ],
+            "alias": {
+              "react-flexbox-grid": "react-flexbox-grid/dist/react-flexbox-grid",
+              "react-flexbox-css": "react-flexbox-grid/dist/react-flexbox-grid.css"
+            }
           }
         ],
         [

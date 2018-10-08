@@ -2,5 +2,71 @@
   "meta": {
     "title": "App"
   },
-  "title": "Welcome to Wundershine"
+  "smartFraming": {
+    "title": "Smart picture framing",
+    "description": "Wundershine makes it extremely easy to get a feed of fresh pictures and digital art from your smartphone or camera to the walls of your home."
+  },
+  "refresh": {
+    "title": "Refresh at will",
+    "description": "Your pretty pictures will finally get their moment in the sun. No need to take frames off the wall and mess around with rulers, calculators, paper cutters, metal clips, or sticky tape."
+  },
+  "easyLoading": {
+    "title": "Easy loading slot",
+    "description": "Hidden slot at the bottom for one-step swapping. Recessed shape for easy removal."
+  },
+  "reframe": {
+    "title": "The Reframe",
+    "description": "Premium quality natural wood. An internal stack of shaped layers guides and clamps the print."
+  },
+  "compatibility": {
+    "title": "Compatible prints delivered to your home",
+    "description": "Your best pictures will no longer get lost between thousands of screenshots, folders, and apps on multiple devices. Browse your beautiful large prints and keep special moments alive."
+  },
+  "whatsShowing": {
+    "title": "What's showing?",
+    "description": "A fresh picture for any occasion.",
+    "hashtags": "#christmas #dreamingofawhite #annaiscomingover #reunion"
+  },
+  "playlist": {
+    "title": "Create a playlist for your wall",
+    "description": "Use the app to add pictures to your Queue over time. Share from apps like Instagram and Google Photos. The beautiful photo that you took with your digital camera can be added as well."
+  },
+  "addToQueue": {
+    "title": "Add to your queue anytime",
+    "description": "With two taps she makes sure a picture will feature on her apartment wall later. No need to order prints right then."
+  },
+  "orderPack": {
+    "title": "Order a pack of prints when you’re ready",
+    "description": "Our gallery quality prints are printed on premium card stock with a lustre finish. All Reframe purchases include a discount code for a free 5-pack, including global shippping."
+  },
+  "addPhotos": {
+    "title": "Add photos from your digital camera",
+    "description": "Upload to Google Photos, iCloud or another cloud service and select shots for your Reframe with the Wundershine app."
+  },
+  "layoutFreedom": {
+    "title": "Complete layout freedom",
+    "description": "Use the intuitive pinch zoom tools in the app for cropping and resizing. You can keep full portrait or landscape images and import collages. Prints and layouts will always fit the Reframe perfectly."
+  },
+  "showcase": {
+    "title": "Showcase art created with third party apps",
+    "description": "With the latest creative apps in the app stores, you can turn your photos or ideas into very cool and decorative art with just a few taps. Just hit share in these apps to add your masterpiece to your Wundershine queue."
+  },
+  "cta": {
+    "title": "Get started",
+    "description": "When you place an order for a Reframe, you will promptly receive an email with a personal discount code that you can redeem in the mobile app to get your first print pack for free!"
+  },
+  "products": {
+    "reframe": {
+      "title": "Reframe",
+      "description": "Ideal starter kit and gift. Includes discount code for 5 free prints."
+    },
+    "reframeThreePack": {
+      "title": "Reframe 3-Pack",
+      "description": "Save 16 % per Reframe. Includes discount code for 15 free prints."
+    }
+  },
+  "limitedSupply": {
+    "title": "Limited supply as we ramp up production",
+    "description": "We are a new company and we can not yet produce and distribute large volumes of Reframes. We are growing fast, but for the time being, not all products and colors will be available for purchase all the time. If the product that you want has a 'sold out' indication in our shop, please leave your email address in the chat box at the bottom right of this page, and let us know what product you are interested in. We will get back to you as soon as we have info on availability."
+  }
 }

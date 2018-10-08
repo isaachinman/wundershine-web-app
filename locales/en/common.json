@@ -1,5 +1,12 @@
 {
+  "languages": {
+    "en": "English",
+    "nl": "Dutch"
+  },
   "navbar": {
+    "imgAlt": {
+      "burger": "Menu"
+    },
     "links": {
       "home": "Home",
       "app": "App",
@@ -7,5 +14,19 @@
       "creative": "Creative",
       "shop": "Shop"
     }
+  },
+  "footer": {
+    "followUs": {
+      "title": "Follow us"
+    },
+    "navigation": {
+      "title": "Navigation"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "language": "Language",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy"
   }
 }

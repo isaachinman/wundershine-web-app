@@ -4,9 +4,13 @@ import NextApp, { Container } from 'next/app'
 import { NamespacesConsumer } from 'react-i18next'
 import { i18nClient, languagePathCorrection } from 'utils/i18n'
 
-import { Head, Navbar } from 'components'
+import { Footer, Head, Navbar } from 'components'
 
 import Router from 'next/router'
+
+// Styles
+import 'react-flexbox-css'
+import 'react-dropdown/style.css'
 
 // Validate language subpath on route change
 Router.events.on('routeChangeStart', (originalRoute) => {
@@ -31,7 +35,6 @@ export default class App extends NextApp {
   render() {
 
     const { Component, pageProps } = this.props
-    // console.log(this)
 
     return (
       <Container>
@@ -47,7 +50,10 @@ export default class App extends NextApp {
                 title='Wundershine'
               />
               <Navbar t={t} />
-              <Component {...pageProps} />
+              <main>
+                <Component {...pageProps} />
+              </main>
+              <Footer t={t} />
             </React.Fragment>
           )}
         </NamespacesConsumer>
