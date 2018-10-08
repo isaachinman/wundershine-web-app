@@ -17,9 +17,10 @@ export default css`
   }
 
   .page-section.hero {
+    background-color: #eee;
     background-image: url(${HOMEPAGE_HERO});
     background-repeat:no-repeat;
-    background-position: calc(50% + 100px) center;
+    background-position: center center;
     background-size: cover;
     min-height: calc(100vh - ${NAVBAR_HEIGHT + 100}px);
     display: flex;
@@ -36,9 +37,10 @@ export default css`
   }
 
   .page-section.loading {
+    background-color: #eee;
     background-image: url(${LOADING_SLOT});
     background-repeat:no-repeat;
-    background-position: calc(50% + 60px) center;
+    background-position: center center;
     background-size: cover;
     min-height: calc(100vh - ${NAVBAR_HEIGHT + 100}px);
     display: flex;
@@ -62,9 +64,9 @@ export default css`
     .page-section.loading {
       text-align: center;
       background-image: url(${LOADING_SLOT_SMALL});
-      background-size: contain;
-      background-position: center center;
+      background-size: cover;
       padding: 0 0 20px 0;
+      min-height: 460px;
     }
     h2.loading {
       margin-top: 50%;

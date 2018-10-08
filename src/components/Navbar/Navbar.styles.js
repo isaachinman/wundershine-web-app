@@ -41,7 +41,7 @@ export default css`
     width: 200px;
   }
   img.burger {
-    max-width: 20px;
+    max-width: 35px;
   }
 
   .menu-wrapper {
@@ -76,7 +76,7 @@ export default css`
     }
   }
 
-  @media only screen and (max-width: 399px) {
+  @media only screen and (max-width: 429px) {
     .logo-container {
       flex: 1;
       opacity: 0;
