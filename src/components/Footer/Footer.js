@@ -8,7 +8,9 @@ import getYear from 'date-fns/get_year'
 import { i18nClient } from 'utils/i18n'
 import Link from 'next/link'
 
-import styles from './Footer.styles.js'
+import { LOGO_FOOTER } from 'images'
+
+import styles from './Footer.styles'
 
 export default class Footer extends React.Component {
   render() {
@@ -23,7 +25,11 @@ export default class Footer extends React.Component {
           <Grid>
             <Row center='xs'>
               <Col xs={12}>
-                Wundershine Logo
+                <img
+                  alt='Wundershine'
+                  className='logo'
+                  src={LOGO_FOOTER}
+                />
               </Col>
             </Row>
             <Row>
@@ -115,6 +121,10 @@ export default class Footer extends React.Component {
                 />
               </Col>
             </Row>
+          </Grid>
+        </div>
+        <div className='final-section'>
+          <Grid>
             <Row center='xs'>
               <Col xs={12}>
                 <a

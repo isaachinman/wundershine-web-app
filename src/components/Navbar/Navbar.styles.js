@@ -1,6 +1,7 @@
 import css from 'styled-jsx/css'
 
 export const NAVBAR_HEIGHT = 80
+export const NAVBAR_HEIGHT_MOBILE = 65
 
 export default css`
   .container {
@@ -24,6 +25,7 @@ export default css`
     color: white;
     background-color: #333;
     padding: 12px 33px;
+    line-height: 1.4em;
     cursor: pointer;
   }
   a.shop:hover {
@@ -63,6 +65,7 @@ export default css`
   @media only screen and (max-width: 767px) {
     .container {
       width: calc(100vw - 60px);
+      height: ${NAVBAR_HEIGHT_MOBILE}px;
       flex-direction: row;
       padding: 0 30px;
     }

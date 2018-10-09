@@ -43,11 +43,44 @@ export default `
     line-height: 1.375em;
     color: #797979;
   }
+  @media (max-width: 576px) {
+    h1 {
+    font-size: 32px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 767px) {
+    h1 {
+    font-size: 34px;
+    }
+    h2 {
+      font-size: 33px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    h1 {
+    font-size: 35px;
+    }
+    h2 {
+      font-size: 34px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
   img {
     max-width: 100%;
   }
   @media (max-width: 576px)                       { .hidden-xs { display: none !important; } }
-  @media (min-width: 576px) and (max-width: 767px) { .hidden-sm { display: none !important; } }
-  @media (min-width: 767px) and (max-width: 992px) { .hidden-md { display: none !important; } }
+  @media (min-width: 577px) and (max-width: 767px) { .hidden-sm { display: none !important; } }
+  @media (min-width: 768px) and (max-width: 992px) { .hidden-md { display: none !important; } }
   @media (min-width: 992px)                       { .hidden-lg { display: none !important; } }
 `
