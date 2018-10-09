@@ -53,7 +53,6 @@ export default css`
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: inset 0 0 10px 10px #eee;
   }
 
   .page-section.refresh {

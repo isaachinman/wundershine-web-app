@@ -24,10 +24,10 @@ export const LOADING_SLOT = `${CLOUDINARY}/w_1800,q_85/v1539032839/wundershine-w
 export const LOADING_SLOT_MEDIUM = `${CLOUDINARY}/v1539029655/wundershine-web-app/loading-slot-medium.jpg`
 export const LOADING_SLOT_SMALL = `${CLOUDINARY}/v1539030144/wundershine-web-app/loading-slot-small.jpg`
 
-export const REFRAME_SINGLE_WALNUT = `${CLOUDINARY}/v1539098621/wundershine-web-app/reframe-single-walnut.jpg`
-export const REFRAME_SINGLE_OAK = `${CLOUDINARY}/v1539098621/wundershine-web-app/reframe-single-oak.jpg`
-export const REFRAME_SINGLE_BLACK = `${CLOUDINARY}/v1539098621/wundershine-web-app/reframe-single-black.jpg`
-export const REFRAME_SINGLE_WHITE = `${CLOUDINARY}/v1539098621/wundershine-web-app/reframe-single-white.jpg`
+export const REFRAME_SINGLE_WALNUT = `${CLOUDINARY}/q_81/v1539108347/wundershine-web-app/reframe-single-walnut.png`
+export const REFRAME_SINGLE_OAK = `${CLOUDINARY}/v1539108347/wundershine-web-app/reframe-single-oak.png`
+export const REFRAME_SINGLE_BLACK = `${CLOUDINARY}/v1539108347/wundershine-web-app/reframe-single-black.png`
+export const REFRAME_SINGLE_WHITE = `${CLOUDINARY}/v1539108347/wundershine-web-app/reframe-single-white.png`
 
 export const COMPATIBILITY_BOX = `${CLOUDINARY}/v1539030102/wundershine-web-app/compatibility-box.png`
 

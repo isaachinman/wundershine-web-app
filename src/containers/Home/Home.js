@@ -91,7 +91,7 @@ export default class Home extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={10} xsOffset={1} md={4} mdOffset={4}>
+              <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
                 <div className='reframe-image-container'>
                   <div className='reframe-shadow' />
                   <img
