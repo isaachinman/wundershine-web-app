@@ -10,7 +10,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "dev": "node --experimental-modules src/server.mjs",
+    "dev": "nodemon --watch locales -- --experimental-modules src/server.mjs",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "build": "next build src",
@@ -46,6 +46,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4",
     "pre-commit": "^1.2.2"
   }
 }
