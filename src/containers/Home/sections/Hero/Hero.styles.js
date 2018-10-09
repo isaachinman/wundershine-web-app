@@ -33,7 +33,22 @@ export default css`
   @media only screen and (max-width: 576px) {
     .page-section.hero {
       padding-top: 30px;
-      min-height: 430px;
+      min-height: 500px;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .page-section.hero {
+      min-height: 460px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .page-section.hero {
+      min-height: 420px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .page-section.hero {
+      min-height: 380px;
     }
   }
 `

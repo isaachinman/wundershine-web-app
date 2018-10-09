@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Button } from 'components'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 
 import {
@@ -23,30 +24,48 @@ export default class CallToAction extends React.Component {
           <Grid>
             <Row>
               <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
-                <h3>{t('cta.title')}</h3>
-                <p>{t('cta.description')}</p>
+                <div className='title-container'>
+                  <h3>{t('cta.title')}</h3>
+                  <p>{t('cta.description')}</p>
+                </div>
               </Col>
             </Row>
             <Row>
               <Col xs={10} xsOffset={1} md={6} mdOffset={0} lg={4} lgOffset={2}>
                 <div className='product-container'>
-                  <div>{t('products.reframe.title')}</div>
-                  <div>{t('products.reframe.description')}</div>
+                  <div className='product-title'>{t('products.reframe.title')}</div>
+                  <p><i>{t('products.reframe.description')}</i></p>
                   <img
                     alt={t('products.reframe.title')}
                     className='reframe-product'
                     src={REFRAME_WALL_SINGLE}
                   />
+                  <div className='price'>
+                    <sup>€</sup>
+                    79
+                  </div>
+                  <Button
+                    text={t('cta.shopNow')}
+                    href='https://shop.wundershine.com/products/reframe-square-natural-oak?variant=8924537880636'
+                  />
                 </div>
               </Col>
               <Col xs={10} xsOffset={1} md={6} mdOffset={0} lg={4}>
                 <div className='product-container'>
-                  <div>{t('products.reframeThreePack.title')}</div>
-                  <div>{t('products.reframeThreePack.description')}</div>
+                  <div className='product-title'>{t('products.reframeThreePack.title')}</div>
+                  <p><i>{t('products.reframeThreePack.description')}</i></p>
                   <img
                     alt={t('products.reframeThreePack.title')}
                     className='reframe-product'
                     src={REFRAME_WALL_3PACK}
+                  />
+                  <div className='price'>
+                    <sup>€</sup>
+                    199
+                  </div>
+                  <Button
+                    text={t('cta.shopNow')}
+                    href='https://shop.wundershine.com/products/reframe-3-pack?variant=9247083593788'
                   />
                 </div>
               </Col>

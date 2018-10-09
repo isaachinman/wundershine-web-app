@@ -10,6 +10,7 @@ export default css`
     font-weight: 600;
     text-transform: uppercase;
     width: auto;
+    display: inline-block;
     color: white;
     background-color: #333;
     padding: 12px 33px;

@@ -15,7 +15,7 @@ export const DROPBOX_LOGO_WHITE = `${CLOUDINARY}/v1539029628/wundershine-web-app
 
 /* Homepage */
 export const HOMEPAGE_HERO = `${CLOUDINARY}/q_85/v1539032117/wundershine-web-app/hero-homepage.jpg`
-export const HOMEPAGE_HERO_SMALL = `${CLOUDINARY}/w_1599,q_85/v1539032117/wundershine-web-app/hero-homepage-small-3.jpg`
+export const HOMEPAGE_HERO_SMALL = `${CLOUDINARY}/w_1598,q_85/v1539032117/wundershine-web-app/hero-homepage-small.png`
 
 export const REFRESH_AT_WILL = `${CLOUDINARY}/w_1600/v1539029956/wundershine-web-app/refresh-at-will.png`
 export const REFRESH_AT_WILL_SMALL = `${CLOUDINARY}/w_800/v1539029956/wundershine-web-app/refresh-at-will-small.png`
@@ -24,12 +24,12 @@ export const LOADING_SLOT = `${CLOUDINARY}/w_1800,q_85/v1539032839/wundershine-w
 export const LOADING_SLOT_MEDIUM = `${CLOUDINARY}/v1539029655/wundershine-web-app/loading-slot-medium.jpg`
 export const LOADING_SLOT_SMALL = `${CLOUDINARY}/v1539030144/wundershine-web-app/loading-slot-small.jpg`
 
-export const REFRAME_SINGLE_WALNUT = `${CLOUDINARY}/q_81/v1539108347/wundershine-web-app/reframe-single-walnut.png`
-export const REFRAME_SINGLE_OAK = `${CLOUDINARY}/v1539108347/wundershine-web-app/reframe-single-oak.png`
-export const REFRAME_SINGLE_BLACK = `${CLOUDINARY}/v1539108347/wundershine-web-app/reframe-single-black.png`
-export const REFRAME_SINGLE_WHITE = `${CLOUDINARY}/v1539108347/wundershine-web-app/reframe-single-white.png`
+export const REFRAME_SINGLE_WALNUT = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-walnut.png`
+export const REFRAME_SINGLE_OAK = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-oak.png`
+export const REFRAME_SINGLE_BLACK = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-black.png`
+export const REFRAME_SINGLE_WHITE = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-white.png`
 
-export const COMPATIBILITY_BOX = `${CLOUDINARY}/v1539030102/wundershine-web-app/compatibility-box.png`
+export const COMPATIBILITY_BOX = `${CLOUDINARY}/w_1200/v1539030102/wundershine-web-app/compatibility-box.png`
 
 export const WHATS_SHOWING = `${CLOUDINARY}/v1539030430/wundershine-web-app/whats-showing.jpg`
 export const WHATS_SHOWING_MEDIUM = `${CLOUDINARY}/v1539030430/wundershine-web-app/whats-showing-medium-2.jpg`

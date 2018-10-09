@@ -16,7 +16,7 @@
   },
   "reframe": {
     "title": "The Reframe",
-    "description": "Premium quality natural wood. An internal stack of shaped layers guides and clamps the print."
+    "description": "Premium quality natural wood. An internal stack of shaped layers guides and clamps the print in place."
   },
   "compatibility": {
     "title": "Compatible prints delivered to your home",
@@ -53,7 +53,8 @@
   },
   "cta": {
     "title": "Get started",
-    "description": "When you place an order for a Reframe, you will promptly receive an email with a personal discount code that you can redeem in the mobile app to get your first print pack for free!"
+    "description": "When you place an order for a Reframe, you will promptly receive an email with a personal discount code that you can redeem in the mobile app to get your first print pack for free!",
+    "shopNow": "Shop Now"
   },
   "products": {
     "reframe": {
@@ -62,7 +63,7 @@
     },
     "reframeThreePack": {
       "title": "Reframe 3-Pack",
-      "description": "Save 16 % per Reframe. Includes discount code for 15 free prints."
+      "description": "Save 16% per Reframe. Includes discount code for 15 free prints."
     }
   },
   "limitedSupply": {

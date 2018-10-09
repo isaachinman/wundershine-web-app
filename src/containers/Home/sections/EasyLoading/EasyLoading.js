@@ -17,7 +17,7 @@ export default class EasyLoading extends React.Component {
         <div className='page-section loading'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={4}>
+              <Col xs={10} xsOffset={1} md={4} mdOffset={0}>
                 <h2 className='loading'>{t('easyLoading.title')}</h2>
                 <p>{t('easyLoading.description')}</p>
               </Col>
