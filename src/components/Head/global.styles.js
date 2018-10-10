@@ -23,6 +23,7 @@ export default `
   }
   main {
     flex: 1;
+    min-height: calc(100vh - 80px);
   }
   h1 {
     font-size: 36px;
