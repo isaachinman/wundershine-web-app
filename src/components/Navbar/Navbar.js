@@ -97,12 +97,12 @@ export default class Navbar extends React.Component {
               <img
                 src={LOGO_FULL}
                 alt='Wundershine'
-                className='logo hidden-xs hidden-sm'
+                className='logo hidden-xs'
               />
               <img
                 src={LOGO_ICON}
                 alt='Wundershine'
-                className='logo-icon hidden-md hidden-lg'
+                className='logo-icon hidden-sm hidden-md hidden-lg'
               />
             </div>
             <a
