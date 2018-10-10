@@ -9,8 +9,9 @@ import { Footer, Head, Navbar } from 'components'
 import Router from 'next/router'
 
 // Styles
-import 'react-flexbox-css'
+import 'react-aspect-ratio/aspect-ratio.css'
 import 'react-dropdown/style.css'
+import 'react-flexbox-css'
 
 // Validate language subpath on route change
 Router.events.on('routeChangeStart', (originalRoute) => {

@@ -2,5 +2,7 @@
   "meta": {
     "title": "App"
   },
-  "title": "App for Android and iOS"
+  "title": "The App",
+  "headline": "Use the app to manage your picture queue and order print packs.",
+  "description": "Your queue lives in the cloud and you can add as many images as you like. Re-order the list to select the next set of pictures for display in your Reframe(s)."
 }

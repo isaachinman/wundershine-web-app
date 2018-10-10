@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 
 import {
@@ -24,11 +25,13 @@ export default class OrderPack extends React.Component {
               <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
                 <h2>{t('orderPack.title')}</h2>
                 <p>{t('orderPack.description')}</p>
-                <img
-                  className='iphone'
-                  src={ORDER_PACK}
-                  alt='Google Play Store'
-                />
+                <AspectRatio ratio='1368/1994' style={{ maxWidth: 500, margin: '0 auto' }}>
+                  <img
+                    className='iphone'
+                    src={ORDER_PACK}
+                    alt='Google Play Store'
+                  />
+                </AspectRatio>
               </Col>
             </Row>
           </Grid>

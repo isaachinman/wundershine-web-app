@@ -2,11 +2,13 @@ const CLOUDINARY = 'https://res.cloudinary.com/wundershine/image/upload'
 
 /* Logos and Icons */
 export const BURGER_NAV = `${CLOUDINARY}/v1539033609/wundershine-web-app/burger-icon.png`
-export const LOGO_NAV = `${CLOUDINARY}/q_100/v1539029738/wundershine-web-app/wundershine-logo.png`
-export const LOGO_FOOTER = `${CLOUDINARY}/q_100/v1539030388/wundershine-web-app/wundershine-logo-graphic.png`
+export const LOGO_FULL = `${CLOUDINARY}/q_100/v1539029738/wundershine-web-app/wundershine-logo.png`
+export const LOGO_ICON = `${CLOUDINARY}/q_100/v1539030388/wundershine-web-app/wundershine-logo-graphic.png`
 
 export const APP_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539029624/wundershine-web-app/appstore-transparent.png`
 export const PLAY_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539029740/wundershine-web-app/playstore-transparent.png`
+export const APP_STORE_BLACK = `${CLOUDINARY}/w_500/v1539203025/wundershine-web-app/appstore-black.png`
+export const PLAY_STORE_BLACK = `${CLOUDINARY}/w_500/v1539203024/wundershine-web-app/playstore-black.jpg`
 
 export const ADOBE_CC_LOGO_WHITE = `${CLOUDINARY}/v1539029624/wundershine-web-app/adobe-cc-logo-white.png`
 export const GOOGLE_PHOTOS_LOGO_WHITE = `${CLOUDINARY}/v1539029696/wundershine-web-app/google-photos-logo-white.png`
@@ -53,3 +55,6 @@ export const SHOWCASE = `${CLOUDINARY}/v1539030354/wundershine-web-app/showcase-
 
 export const REFRAME_WALL_SINGLE = `${CLOUDINARY}/v1539029852/wundershine-web-app/reframe-wall-single.png`
 export const REFRAME_WALL_3PACK = `${CLOUDINARY}/v1539029819/wundershine-web-app/reframe-wall-3pack.png`
+
+/* Native App Page */
+export const APP_PRINT_STACK = `${CLOUDINARY}/v1539030220/wundershine-web-app/app-print-stack.jpg`

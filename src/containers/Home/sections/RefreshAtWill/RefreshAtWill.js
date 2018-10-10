@@ -1,12 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
-
-import {
-  REFRESH_AT_WILL,
-  REFRESH_AT_WILL_SMALL,
-} from 'images'
 
 import baseStyles from '../../Home.styles'
 import styles from './RefreshAtWill.styles'
@@ -29,14 +25,16 @@ export default class RefreshAtWill extends React.Component {
             </Row>
             <Row>
               <Col xs={12}>
-                <picture>
-                  <source srcSet={REFRESH_AT_WILL} media='(min-width: 767px)' />
-                  <img
-                    className='refresh'
-                    src={REFRESH_AT_WILL_SMALL}
-                    alt={t('refresh.title')}
-                  />
-                </picture>
+                <div className='hidden-xs hidden-sm'>
+                  <AspectRatio ratio='1600/800'>
+                    <div className='refresh-image' />
+                  </AspectRatio>
+                </div>
+                <div className='hidden-md hidden-lg'>
+                  <AspectRatio ratio='732/499'>
+                    <div className='refresh-image-small' />
+                  </AspectRatio>
+                </div>
               </Col>
             </Row>
           </Grid>

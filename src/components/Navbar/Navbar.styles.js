@@ -42,6 +42,11 @@ export default css`
     cursor: pointer;
     width: 200px;
   }
+  img.logo-icon {
+    height: 35px;
+    opacity: 0.15;
+  }
+
   img.burger {
     max-width: 35px;
   }
@@ -60,6 +65,7 @@ export default css`
     min-width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   @media only screen and (max-width: 767px) {
@@ -75,15 +81,13 @@ export default css`
       padding: 0 40px;
     }
     a.shop {
+      max-height: 22px;
       padding: 6px 16px;
     }
   }
 
   @media only screen and (max-width: 429px) {
-    .logo-container {
-      flex: 1;
-      opacity: 0;
-    }
+
   }
 
 `

@@ -4,15 +4,13 @@ export default css`
   .page-section.wall-playlist {
     background-color: #fafafa;
   }
-  img.wall-playlist {
-    max-height: 800px;
-  }
   .wall-playlist-img-container {
     text-align: right;
     margin: 0 100px 0 0;
   }
   img.store-icon {
     width: 140px;
+    height: 48px;
     margin: 20px 20px 0 0;
   }
   img.store-icon:hover {

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 
 import {
@@ -25,11 +26,13 @@ export default class WallPlaylist extends React.Component {
             <Row middle='md'>
               <Col xs={10} xsOffset={1} mdOffset={0} md={6}>
                 <div className='wall-playlist-img-container'>
-                  <img
-                    className='wall-playlist'
-                    src={WALL_PLAYLIST}
-                    alt={t('playlist.title')}
-                  />
+                  <AspectRatio ratio='260/671' style={{ maxWidth: 300, margin: '0 0 0 auto' }}>
+                    <img
+                      className='wall-playlist'
+                      src={WALL_PLAYLIST}
+                      alt={t('playlist.title')}
+                    />
+                  </AspectRatio>
                 </div>
               </Col>
               <Col xs={10} xsOffset={1} mdOffset={0} md={6} lg={4}>

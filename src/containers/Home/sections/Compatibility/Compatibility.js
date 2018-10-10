@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 
 import {
@@ -22,11 +23,12 @@ export default class Compatibility extends React.Component {
           <Grid>
             <Row>
               <Col xs={12} md={8}>
-                <img
-                  className='refresh'
-                  src={COMPATIBILITY_BOX}
-                  alt={t('refresh.title')}
-                />
+                <AspectRatio ratio='1200/834'>
+                  <img
+                    src={COMPATIBILITY_BOX}
+                    alt={t('refresh.title')}
+                  />
+                </AspectRatio>
               </Col>
               <Col xs={10} xsOffset={1} mdOffset={0} md={4}>
                 <h2>{t('compatibility.title')}</h2>

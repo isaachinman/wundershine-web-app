@@ -8,7 +8,7 @@ import getYear from 'date-fns/get_year'
 import { i18nClient } from 'utils/i18n'
 import Link from 'next/link'
 
-import { LOGO_FOOTER } from 'images'
+import { LOGO_ICON } from 'images'
 
 import styles from './Footer.styles'
 
@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
                 <img
                   alt='Wundershine'
                   className='logo'
-                  src={LOGO_FOOTER}
+                  src={LOGO_ICON}
                 />
               </Col>
             </Row>

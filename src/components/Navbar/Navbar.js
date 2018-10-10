@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { slide as Menu } from 'react-burger-menu'
 import Router from 'next/router'
 
-import { BURGER_NAV, LOGO_NAV } from 'images'
+import { BURGER_NAV, LOGO_FULL, LOGO_ICON } from 'images'
 
 import styles from './Navbar.styles.js'
 
@@ -95,9 +95,14 @@ export default class Navbar extends React.Component {
             </a>
             <div className='logo-container'>
               <img
-                src={LOGO_NAV}
+                src={LOGO_FULL}
                 alt='Wundershine'
-                className='logo'
+                className='logo hidden-xs hidden-sm'
+              />
+              <img
+                src={LOGO_ICON}
+                alt='Wundershine'
+                className='logo-icon hidden-md hidden-lg'
               />
             </div>
             <a
@@ -115,7 +120,7 @@ export default class Navbar extends React.Component {
                   <div className='logo-container'>
                     <Link prefetch href='/'>
                       <img
-                        src={LOGO_NAV}
+                        src={LOGO_FULL}
                         alt='Wundershine'
                         className='logo'
                       />

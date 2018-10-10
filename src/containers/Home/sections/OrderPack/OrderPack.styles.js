@@ -4,9 +4,8 @@ export default css`
   .page-section.order-pack {
     text-align: center;
   }
-  .page-section.order-pack img.iphone {
-    max-height: 700px;
-    margin: 50px 0 0 0;
+  .page-section.order-pack p {
+    margin-bottom: 60px;
   }
   @media only screen and (max-width: 767px) {
     .page-section.order-pack img.iphone {

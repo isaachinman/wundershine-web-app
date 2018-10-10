@@ -8,6 +8,7 @@ export default css`
   }
   .reframe-image-container {
     position: relative;
+    margin-bottom: 20px;
   }
   img.reframe-image {
     margin-left: 1.3%;

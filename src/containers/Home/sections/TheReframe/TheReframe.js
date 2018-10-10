@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
+import { Loader } from 'components'
 
 import {
   REFRAME_SINGLE_BLACK,
@@ -35,14 +37,30 @@ const options = {
 export default class TheReframe extends React.Component {
 
   state = {
+    loading: false,
     selected: 'oak',
   }
 
-  changeSelected = option => this.setState({ selected: option.value })
+  changeSelected = (option) => {
+    this.setState({ selected: option.value })
+    this.setLoading(true)
+  }
+
+  setLoading = (loading) => {
+    if (!loading) {
+      this.setState({ loading: false })
+      if (this.loadingTimeout) {
+        clearTimeout(this.loadingTimeout)
+        this.loadingTimeout = null
+      }
+    } else if (!this.loadingTimeout) {
+      this.loadingTimeout = setTimeout(() => this.setState({ loading: true }), 200)
+    }
+  }
 
   render() {
     const { t } = this.props
-    const { selected } = this.state
+    const { loading, selected } = this.state
     return (
       <React.Fragment>
         <style jsx>{baseStyles}</style>
@@ -59,12 +77,16 @@ export default class TheReframe extends React.Component {
             <Row>
               <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
                 <div className='reframe-image-container'>
-                  <div className='reframe-shadow' />
-                  <img
-                    alt='Walnut'
-                    className='reframe-image'
-                    src={options[selected].src}
-                  />
+                  <AspectRatio ratio='1/1'>
+                    <img
+                      alt='Reframe'
+                      className='reframe-image'
+                      src={options[selected].src}
+                      onLoad={() => this.setLoading(false)}
+                      onError={() => this.setLoading(false)}
+                    />
+                  </AspectRatio>
+                  <Loader active={loading} />
                 </div>
               </Col>
             </Row>
