@@ -1,17 +1,20 @@
 import React from 'react'
 
+import * as gtag from 'utils/analytics/gtag'
+import { i18nClient, languagePathCorrection } from 'utils/i18n'
 import NextApp, { Container } from 'next/app'
 import { NamespacesConsumer } from 'react-i18next'
-import { i18nClient, languagePathCorrection } from 'utils/i18n'
+import Router from 'next/router'
 
 import { Footer, Head, Navbar } from 'components'
-
-import Router from 'next/router'
 
 // Styles
 import 'react-aspect-ratio/aspect-ratio.css'
 import 'react-dropdown/style.css'
 import 'react-flexbox-css'
+
+// GA Pageview
+Router.events.on('routeChangeComplete', url => gtag.pageview(url))
 
 // Validate language subpath on route change
 Router.events.on('routeChangeStart', (originalRoute) => {

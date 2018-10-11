@@ -7,6 +7,8 @@ import NextHead from 'next/head'
 
 import globalStyles from './global.styles'
 
+const { googleAnalytics } = config
+
 export default class Head extends React.Component {
   render() {
 
@@ -35,6 +37,24 @@ export default class Head extends React.Component {
 
         {/* Global styles */}
         <style dangerouslySetInnerHTML={{ __html: globalStyles }} />
+
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalytics.trackingID}`}
+        />
+        <script
+          dangerouslySetInnerHTML={
+            {
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${googleAnalytics.trackingID}');
+              `,
+            }
+          }
+        />
 
       </NextHead>
     )
