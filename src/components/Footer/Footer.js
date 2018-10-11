@@ -7,8 +7,7 @@ import Dropdown from 'react-dropdown'
 import getYear from 'date-fns/get_year'
 import { i18nClient } from 'utils/i18n'
 import Link from 'next/link'
-
-import { LOGO_ICON } from 'images'
+import { Logo } from 'components'
 
 import styles from './Footer.styles'
 
@@ -25,11 +24,13 @@ export default class Footer extends React.Component {
           <Grid>
             <Row center='xs'>
               <Col xs={12}>
-                <img
-                  alt='Wundershine'
-                  className='logo'
-                  src={LOGO_ICON}
-                />
+                <div className='logo-container'>
+                  <Logo
+                    iconOnly
+                    color='#232424'
+                    maxWidth={40}
+                  />
+                </div>
               </Col>
             </Row>
             <Row>

@@ -9,8 +9,7 @@ export default css`
     line-height: 1.8em;
     padding: 20px 0 50px 0;
   }
-  img.logo {
-    width: 40px;
+  .logo-container {
     margin: 40px 0 30px 0;
   }
   .section-title {

@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import Link from 'next/link'
+import { Logo } from 'components'
 import { slide as Menu } from 'react-burger-menu'
 import Router from 'next/router'
 
-import { BURGER_NAV, LOGO_FULL, LOGO_ICON } from 'images'
+import { BURGER_NAV } from 'images'
 
 import styles from './Navbar.styles.js'
 
@@ -94,16 +95,19 @@ export default class Navbar extends React.Component {
               />
             </a>
             <div className='logo-container'>
-              <img
-                src={LOGO_FULL}
-                alt='Wundershine'
-                className='logo hidden-xs'
-              />
-              <img
-                src={LOGO_ICON}
-                alt='Wundershine'
-                className='logo-icon hidden-sm hidden-md hidden-lg'
-              />
+              <div className='hidden-sm hidden-md hidden-lg'>
+                <Logo
+                  iconOnly
+                  color='#dddddd'
+                  maxWidth={40}
+                />
+              </div>
+              <div className='hidden-xs'>
+                <Logo
+                  color='#232424'
+                  maxWidth={200}
+                />
+              </div>
             </div>
             <a
               className='shop'
@@ -119,11 +123,12 @@ export default class Navbar extends React.Component {
                 <Col xs={6} sm={4}>
                   <div className='logo-container'>
                     <Link prefetch href='/'>
-                      <img
-                        src={LOGO_FULL}
-                        alt='Wundershine'
-                        className='logo'
-                      />
+                      <a>
+                        <Logo
+                          color='#232424'
+                          maxWidth={200}
+                        />
+                      </a>
                     </Link>
                   </div>
                 </Col>
