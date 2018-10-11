@@ -34,7 +34,7 @@ export default class Creative extends React.Component {
               </Row>
             </div>
             {appContent.map((app, index) => (
-              <div className={`app-row ${index !== appContent.length - 1 ? 'with-border' : null}`}>
+              <div key={app.id} className={`app-row ${index !== appContent.length - 1 ? 'with-border' : null}`}>
                 <Row>
                   <Col xs={12} md={5} mdOffset={1}>
                     <AspectRatio ratio='1/1' style={{ maxWidth: 480, margin: '0 auto' }}>
@@ -64,6 +64,7 @@ export default class Creative extends React.Component {
                       <div className='links'>
                         {app.links.map((link, linkIndex) => (
                           <a
+                            key={link.link}
                             className={`link ${linkIndex !== app.links.length - 1 ? 'with-spacer' : null}`}
                             href={link.link}
                           >
@@ -74,6 +75,7 @@ export default class Creative extends React.Component {
                       <div className='screens'>
                         {[1, 2, 3].map(num => (
                           <img
+                            key={app.images[`appScreenshot${num}`]}
                             className='screen'
                             alt={`${app.appName} Screen ${num}`}
                             src={app.images[`appScreenshot${num}`]}
