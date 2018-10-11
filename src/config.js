@@ -14,6 +14,8 @@ module.exports = {
     ],
   },
 
+  favicon: 'https://res.cloudinary.com/wundershine/image/upload/q_100/v1539272013/wundershine-web-app/wundershine-logo-graphic.png',
+
   googleAnalytics: {
     trackingID: 'UA-127356839-1',
   },
