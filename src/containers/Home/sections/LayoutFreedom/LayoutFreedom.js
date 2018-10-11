@@ -1,12 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
-
-import {
-  LAYOUT_FREEDOM_ROW,
-  LAYOUT_FREEDOM_GRID,
-} from 'images'
 
 import baseStyles from '../../Home.styles'
 import styles from './LayoutFreedom.styles'
@@ -29,14 +25,16 @@ export default class LayoutFreedom extends React.Component {
             </Row>
             <Row>
               <Col xs={12}>
-                <picture>
-                  <source srcSet={LAYOUT_FREEDOM_ROW} media='(min-width: 992px)' />
-                  <img
-                    className='frames'
-                    src={LAYOUT_FREEDOM_GRID}
-                    alt={t('refresh.title')}
-                  />
-                </picture>
+                <div className='hidden-xs hidden-sm'>
+                  <AspectRatio ratio='4707/1104'>
+                    <div className='frames-row' />
+                  </AspectRatio>
+                </div>
+                <div className='hidden-md hidden-lg'>
+                  <AspectRatio ratio='1/1'>
+                    <div className='frames-grid' />
+                  </AspectRatio>
+                </div>
               </Col>
             </Row>
           </Grid>

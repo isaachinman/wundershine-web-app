@@ -53,8 +53,8 @@ export const LAYOUT_FREEDOM_GRID = `${CLOUDINARY}/v1539030103/wundershine-web-ap
 
 export const SHOWCASE = `${CLOUDINARY}/v1539030354/wundershine-web-app/showcase-table.jpg`
 
-export const REFRAME_WALL_SINGLE = `${CLOUDINARY}/v1539029852/wundershine-web-app/reframe-wall-single.png`
-export const REFRAME_WALL_3PACK = `${CLOUDINARY}/v1539029819/wundershine-web-app/reframe-wall-3pack.png`
+export const REFRAME_WALL_SINGLE = `${CLOUDINARY}/w_500/v1539029852/wundershine-web-app/reframe-wall-single.png`
+export const REFRAME_WALL_3PACK = `${CLOUDINARY}/w_500/v1539029819/wundershine-web-app/reframe-wall-3pack.png`
 
 /* Native App Page */
 export const APP_PRINT_STACK = `${CLOUDINARY}/v1539030220/wundershine-web-app/app-print-stack.jpg`

@@ -19,7 +19,6 @@ export default css`
     padding: 30px;
   }
   .page-section.cta img.reframe-product {
-    width: 300px;
     margin: 15px 0 0 0;
   }
   .product-title {

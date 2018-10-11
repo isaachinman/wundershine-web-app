@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Button } from 'components'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 
@@ -35,11 +36,13 @@ export default class CallToAction extends React.Component {
                 <div className='product-container'>
                   <div className='product-title'>{t('products.reframe.title')}</div>
                   <p><i>{t('products.reframe.description')}</i></p>
-                  <img
-                    alt={t('products.reframe.title')}
-                    className='reframe-product'
-                    src={REFRAME_WALL_SINGLE}
-                  />
+                  <AspectRatio ratio='500/735' style={{ maxWidth: 300, margin: '0 auto' }}>
+                    <img
+                      alt={t('products.reframe.title')}
+                      className='reframe-product'
+                      src={REFRAME_WALL_SINGLE}
+                    />
+                  </AspectRatio>
                   <div className='price'>
                     <sup>€</sup>
                     79
@@ -54,11 +57,13 @@ export default class CallToAction extends React.Component {
                 <div className='product-container'>
                   <div className='product-title'>{t('products.reframeThreePack.title')}</div>
                   <p><i>{t('products.reframeThreePack.description')}</i></p>
-                  <img
-                    alt={t('products.reframeThreePack.title')}
-                    className='reframe-product'
-                    src={REFRAME_WALL_3PACK}
-                  />
+                  <AspectRatio ratio='910/1337' style={{ maxWidth: 300, margin: '0 auto' }}>
+                    <img
+                      alt={t('products.reframeThreePack.title')}
+                      className='reframe-product'
+                      src={REFRAME_WALL_3PACK}
+                    />
+                  </AspectRatio>
                   <div className='price'>
                     <sup>€</sup>
                     199

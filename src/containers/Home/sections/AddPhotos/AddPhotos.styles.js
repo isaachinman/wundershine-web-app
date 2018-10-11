@@ -12,7 +12,9 @@ export default css`
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 260px 0;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
   }
   .page-section.add-photos h2, .page-section.add-photos p {
     color: white;

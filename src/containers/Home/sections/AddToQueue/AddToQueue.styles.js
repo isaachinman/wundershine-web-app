@@ -14,7 +14,9 @@ export default css`
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 300px 0;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
   }
   .page-section.add-to-queue .transparent-bg {
     position: relative;

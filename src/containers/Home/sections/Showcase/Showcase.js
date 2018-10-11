@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import AspectRatio from 'react-aspect-ratio'
 import { Button } from 'components'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 
@@ -24,10 +25,12 @@ export default class Showcase extends React.Component {
             <Row middle='xs'>
               <Col md={12} lg={8}>
                 <div className='showcase-container'>
-                  <img
-                    src={SHOWCASE}
-                    alt={t('showcase.title')}
-                  />
+                  <AspectRatio ratio='2128/1467'>
+                    <img
+                      src={SHOWCASE}
+                      alt={t('showcase.title')}
+                    />
+                  </AspectRatio>
                 </div>
               </Col>
               <Col xs={10} xsOffset={1} lg={4} lgOffset={0}>
