@@ -127,18 +127,16 @@ export default class Footer extends React.Component {
           <Grid>
             <Row center='xs'>
               <Col xs={12}>
-                <a
-                  className='bottom-link'
-                  href='#'
-                >
-                  {t('footer.termsOfService')}
-                </a>
-                <a
-                  className='bottom-link'
-                  href='#'
-                >
-                  {t('footer.privacyPolicy')}
-                </a>
+                <Link href='/privacy'>
+                  <a className='bottom-link'>
+                    {t('footer.termsOfService')}
+                  </a>
+                </Link>
+                <Link href='/privacy'>
+                  <a className='bottom-link'>
+                    {t('footer.privacyPolicy')}
+                  </a>
+                </Link>
               </Col>
             </Row>
             <Row center='xs'>
