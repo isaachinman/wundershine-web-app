@@ -18,4 +18,8 @@ module.exports = {
     trackingID: 'UA-127356839-1',
   },
 
+  intercom: {
+    appID: 'pmje77sj',
+  },
+
 }
