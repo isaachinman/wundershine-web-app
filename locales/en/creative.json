@@ -2,5 +2,31 @@
   "meta": {
     "title": "Creative"
   },
-  "title": "Creative Tools"
+  "title": "Creative Tools",
+  "headline": "Be both artist and curator",
+  "descriptionParagraph1": "Create your own art with the recommended third party apps below. When you add any image to your Wundershine queue, the app will let you know if the resolution is sufficient for a high quality Reframe print.",
+  "descriptionParagraph2": "When you crop an image within the app for the perfect composition, this information will update in real time. No anxiety at all.",
+  "apps": {
+    "fragment": {
+      "description": "With Fragment, you have the power to transform any image in to totally unique, one-of-a-kind prismatic art you’ll want to show to everyone. Whether you’re looking to completely redefine and enhance your level of mobile photography, or simply want to add a subtle dose of creativity to your pictures, Fragment puts the artistry in your hands."
+    },
+    "waterlogue": {
+      "description": "You don’t need paint to create beautiful watercolor images — Waterlogue captures the essence of your photos in brilliant, liquid color."
+    },
+    "lorystripes": {
+      "description": "Add a new dimension to your photos. 40 beautifully crafted ribbons and lines, called 'Stripes' and 120 Stripe presets, or 'Styles', to quickly select the right stripe for any photo."
+    },
+    "photoshopSketch": {
+      "description": "Draw with pencils, pens, markers, erasers, thick acrylic, ink brush, soft pastel, and watercolor paint brushes to create artwork that can be sent as layered files to Adobe Photoshop CC or Adobe Illustrator CC."
+    },
+    "assembly": {
+      "description": "Create graphic art, illustrations, and more using powerful, easy to use features usually only found in professional desktop software. Assembly is the revolutionary vector design tool that lets you imagine and produce quality work in half the time."
+    },
+    "mirrorLab": {
+      "description": "Mirror Lab aims to be the most fun, easy to use and powerful photo-editing app to creatively enhance pictures, make mirror photos, kaleidoscope images, and distort faces and scenery."
+    },
+    "portra": {
+      "description": "Watercolor that spreads out beautiful colors to detailed sketches, perfect oil paintings, and trendy illustrations. More than 19 colorful filters are available."
+    }
+  }
 }

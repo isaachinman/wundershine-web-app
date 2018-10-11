@@ -58,3 +58,46 @@ export const REFRAME_WALL_3PACK = `${CLOUDINARY}/v1539029819/wundershine-web-app
 
 /* Native App Page */
 export const APP_PRINT_STACK = `${CLOUDINARY}/v1539030220/wundershine-web-app/app-print-stack.jpg`
+
+/* Creative Page */
+export const ASSEMBLY_FRAME = `${CLOUDINARY}/v1539253665/wundershine-web-app/assembly/frame.jpg`
+export const ASSEMBLY_ICON = `${CLOUDINARY}/v1539253664/wundershine-web-app/assembly/icon.jpg`
+export const ASSEMBLY_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253664/wundershine-web-app/assembly/screen-1.jpg`
+export const ASSEMBLY_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253664/wundershine-web-app/assembly/screen-2.jpg`
+export const ASSEMBLY_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253665/wundershine-web-app/assembly/screen-3.jpg`
+
+export const FRAGMENT_FRAME = `${CLOUDINARY}/v1539253681/wundershine-web-app/fragment/frame.jpg`
+export const FRAGMENT_ICON = `${CLOUDINARY}/v1539253681/wundershine-web-app/fragment/icon.jpg`
+export const FRAGMENT_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253682/wundershine-web-app/fragment/screen-1.jpg`
+export const FRAGMENT_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253682/wundershine-web-app/fragment/screen-2.jpg`
+export const FRAGMENT_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253682/wundershine-web-app/fragment/screen-3.jpg`
+
+export const LORYSTRIPES_FRAME = `${CLOUDINARY}/v1539253697/wundershine-web-app/lorystripes/frame.jpg`
+export const LORYSTRIPES_ICON = `${CLOUDINARY}/v1539253696/wundershine-web-app/lorystripes/icon.jpg`
+export const LORYSTRIPES_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253697/wundershine-web-app/lorystripes/screen-1.jpg`
+export const LORYSTRIPES_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253696/wundershine-web-app/lorystripes/screen-2.jpg`
+export const LORYSTRIPES_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253697/wundershine-web-app/lorystripes/screen-3.jpg`
+
+export const MIRRORLAB_FRAME = `${CLOUDINARY}/v1539253710/wundershine-web-app/mirrorlab/frame.jpg`
+export const MIRRORLAB_ICON = `${CLOUDINARY}/v1539253709/wundershine-web-app/mirrorlab/icon.jpg`
+export const MIRRORLAB_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253710/wundershine-web-app/mirrorlab/screen-1.jpg`
+export const MIRRORLAB_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253711/wundershine-web-app/mirrorlab/screen-2.jpg`
+export const MIRRORLAB_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253710/wundershine-web-app/mirrorlab/screen-3.jpg`
+
+export const PHOTOSHOP_SKETCH_FRAME = `${CLOUDINARY}/v1539253726/wundershine-web-app/photoshop-sketch/frame.jpg`
+export const PHOTOSHOP_SKETCH_ICON = `${CLOUDINARY}/v1539253726/wundershine-web-app/photoshop-sketch/icon.jpg`
+export const PHOTOSHOP_SKETCH_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253726/wundershine-web-app/photoshop-sketch/screen-1.jpg`
+export const PHOTOSHOP_SKETCH_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253726/wundershine-web-app/photoshop-sketch/screen-2.jpg`
+export const PHOTOSHOP_SKETCH_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253726/wundershine-web-app/photoshop-sketch/screen-3.jpg`
+
+export const PORTRA_FRAME = `${CLOUDINARY}/v1539253744/wundershine-web-app/portra/frame.jpg`
+export const PORTRA_ICON = `${CLOUDINARY}/v1539253742/wundershine-web-app/portra/icon.jpg`
+export const PORTRA_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253742/wundershine-web-app/portra/screen-1.jpg`
+export const PORTRA_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253743/wundershine-web-app/portra/screen-2.jpg`
+export const PORTRA_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253743/wundershine-web-app/portra/screen-3.jpg`
+
+export const WATERLOGUE_FRAME = `${CLOUDINARY}/v1539253764/wundershine-web-app/waterlogue/frame.jpg`
+export const WATERLOGUE_ICON = `${CLOUDINARY}/v1539253764/wundershine-web-app/waterlogue/icon.jpg`
+export const WATERLOGUE_SCREEN_1 = `${CLOUDINARY}/w_200/v1539253764/wundershine-web-app/waterlogue/screen-1.jpg`
+export const WATERLOGUE_SCREEN_2 = `${CLOUDINARY}/w_200/v1539253765/wundershine-web-app/waterlogue/screen-2.png`
+export const WATERLOGUE_SCREEN_3 = `${CLOUDINARY}/w_200/v1539253765/wundershine-web-app/waterlogue/screen-3.jpg`
