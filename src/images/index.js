@@ -1,63 +1,63 @@
 const CLOUDINARY = 'https://res.cloudinary.com/wundershine/image/upload'
 
 /* Logos and Icons */
-export const BURGER_NAV = `${CLOUDINARY}/v1539033609/wundershine-web-app/burger-icon.png`
-export const LOGO_FULL = `${CLOUDINARY}/q_100/v1539029738/wundershine-web-app/wundershine-logo.png`
-export const LOGO_ICON = `${CLOUDINARY}/q_100/v1539030388/wundershine-web-app/wundershine-logo-graphic.png`
+export const BURGER_NAV = `${CLOUDINARY}/v1539271990/wundershine-web-app/burger-icon.png`
+export const LOGO_FULL = `${CLOUDINARY}/q_100/v1539274467/wundershine-web-app/wundershine-logo.png`
+export const LOGO_ICON = `${CLOUDINARY}/q_100/v1539272013/wundershine-web-app/wundershine-logo-graphic.png`
 
-export const APP_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539029624/wundershine-web-app/appstore-transparent.png`
-export const PLAY_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539029740/wundershine-web-app/playstore-transparent.png`
-export const APP_STORE_BLACK = `${CLOUDINARY}/w_500/v1539203025/wundershine-web-app/appstore-black.png`
-export const PLAY_STORE_BLACK = `${CLOUDINARY}/w_500/v1539203024/wundershine-web-app/playstore-black.jpg`
+export const APP_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539271988/wundershine-web-app/appstore-transparent.png`
+export const PLAY_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539272003/wundershine-web-app/playstore-transparent.png`
+export const APP_STORE_BLACK = `${CLOUDINARY}/w_500/v1539271988/wundershine-web-app/appstore-black.png`
+export const PLAY_STORE_BLACK = `${CLOUDINARY}/w_500/v1539272004/wundershine-web-app/playstore-black.jpg`
 
-export const ADOBE_CC_LOGO_WHITE = `${CLOUDINARY}/v1539029624/wundershine-web-app/adobe-cc-logo-white.png`
-export const GOOGLE_PHOTOS_LOGO_WHITE = `${CLOUDINARY}/v1539029696/wundershine-web-app/google-photos-logo-white.png`
-export const IOS_PHOTOS_LOGO_WHITE = `${CLOUDINARY}/v1539029697/wundershine-web-app/ios-photos-logo-white.png`
-export const DROPBOX_LOGO_WHITE = `${CLOUDINARY}/v1539029628/wundershine-web-app/dropbox-logo-white.png`
+export const ADOBE_CC_LOGO_WHITE = `${CLOUDINARY}/v1539271987/wundershine-web-app/adobe-cc-logo-white.png`
+export const GOOGLE_PHOTOS_LOGO_WHITE = `${CLOUDINARY}/v1539271993/wundershine-web-app/google-photos-logo-white.png`
+export const IOS_PHOTOS_LOGO_WHITE = `${CLOUDINARY}/v1539271995/wundershine-web-app/ios-photos-logo-white.png`
+export const DROPBOX_LOGO_WHITE = `${CLOUDINARY}/v1539271990/wundershine-web-app/dropbox-logo-white.png`
 
 /* Homepage */
-export const HOMEPAGE_HERO = `${CLOUDINARY}/q_85/v1539032117/wundershine-web-app/hero-homepage.jpg`
-export const HOMEPAGE_HERO_SMALL = `${CLOUDINARY}/w_1598,q_85/v1539032117/wundershine-web-app/hero-homepage-small.png`
+export const HOMEPAGE_HERO = `${CLOUDINARY}/q_100/v1539271994/wundershine-web-app/hero-homepage.jpg`
+export const HOMEPAGE_HERO_SMALL = `${CLOUDINARY}/v1539271997/wundershine-web-app/hero-homepage-small.png`
 
-export const REFRESH_AT_WILL = `${CLOUDINARY}/w_1600/v1539029956/wundershine-web-app/refresh-at-will.png`
-export const REFRESH_AT_WILL_SMALL = `${CLOUDINARY}/w_800/v1539029956/wundershine-web-app/refresh-at-will-small.png`
+export const REFRESH_AT_WILL = `${CLOUDINARY}/v1539272012/wundershine-web-app/refresh-at-will.png`
+export const REFRESH_AT_WILL_SMALL = `${CLOUDINARY}/w_800/v1539272010/wundershine-web-app/refresh-at-will-small.png`
 
-export const LOADING_SLOT = `${CLOUDINARY}/w_1800,q_85/v1539032839/wundershine-web-app/loading-slot.png`
-export const LOADING_SLOT_MEDIUM = `${CLOUDINARY}/v1539029655/wundershine-web-app/loading-slot-medium.jpg`
-export const LOADING_SLOT_SMALL = `${CLOUDINARY}/v1539030144/wundershine-web-app/loading-slot-small.jpg`
+export const LOADING_SLOT = `${CLOUDINARY}/v1539273190/wundershine-web-app/loading-slot.png`
+export const LOADING_SLOT_MEDIUM = `${CLOUDINARY}/v1539271998/wundershine-web-app/loading-slot-medium.jpg`
+export const LOADING_SLOT_SMALL = `${CLOUDINARY}/v1539271999/wundershine-web-app/loading-slot-small.jpg`
 
-export const REFRAME_SINGLE_WALNUT = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-walnut.png`
-export const REFRAME_SINGLE_OAK = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-oak.png`
-export const REFRAME_SINGLE_BLACK = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-black.png`
-export const REFRAME_SINGLE_WHITE = `${CLOUDINARY}/w_1000,q_50/v1539108347/wundershine-web-app/reframe-single-white.png`
+export const REFRAME_SINGLE_WALNUT = `${CLOUDINARY}/v1539273860/wundershine-web-app/reframe-single-walnut.png`
+export const REFRAME_SINGLE_OAK = `${CLOUDINARY}/v1539273861/wundershine-web-app/reframe-single-oak.png`
+export const REFRAME_SINGLE_BLACK = `${CLOUDINARY}/v1539273860/wundershine-web-app/reframe-single-black.png`
+export const REFRAME_SINGLE_WHITE = `${CLOUDINARY}/v1539273860/wundershine-web-app/reframe-single-white.png`
 
-export const COMPATIBILITY_BOX = `${CLOUDINARY}/w_1200/v1539030102/wundershine-web-app/compatibility-box.png`
+export const COMPATIBILITY_BOX = `${CLOUDINARY}/v1539274113/wundershine-web-app/compatibility-box.png`
 
-export const WHATS_SHOWING = `${CLOUDINARY}/v1539030430/wundershine-web-app/whats-showing.jpg`
-export const WHATS_SHOWING_MEDIUM = `${CLOUDINARY}/v1539030430/wundershine-web-app/whats-showing-medium-2.jpg`
-export const WHATS_SHOWING_SMALL = `${CLOUDINARY}/v1539030412/wundershine-web-app/whats-showing-small.jpg`
+export const WHATS_SHOWING = `${CLOUDINARY}/v1539272014/wundershine-web-app/whats-showing.jpg`
+export const WHATS_SHOWING_MEDIUM = `${CLOUDINARY}/v1539272013/wundershine-web-app/whats-showing-medium-2.jpg`
+export const WHATS_SHOWING_SMALL = `${CLOUDINARY}/v1539272013/wundershine-web-app/whats-showing-small.jpg`
 
-export const WALL_PLAYLIST = `${CLOUDINARY}/v1539029838/wundershine-web-app/iphone-queue-rotated.png`
+export const WALL_PLAYLIST = `${CLOUDINARY}/v1539272001/wundershine-web-app/iphone-queue-rotated.png`
 
-export const ADD_TO_QUEUE = `${CLOUDINARY}/v1539030267/wundershine-web-app/add-to-your-queue.jpg`
-export const ADD_TO_QUEUE_MEDIUM = `${CLOUDINARY}/v1539030267/wundershine-web-app/add-to-your-queue-medium.jpg`
-export const ADD_TO_QUEUE_SMALL = `${CLOUDINARY}/v1539030267/wundershine-web-app/add-to-your-queue-medium.jpg`
+export const ADD_TO_QUEUE = `${CLOUDINARY}/v1539271989/wundershine-web-app/add-to-your-queue.jpg`
+export const ADD_TO_QUEUE_MEDIUM = `${CLOUDINARY}/v1539271988/wundershine-web-app/add-to-your-queue-medium.jpg`
+export const ADD_TO_QUEUE_SMALL = `${CLOUDINARY}/v1539271989/wundershine-web-app/add-to-your-queue-small.jpg`
 
-export const ORDER_PACK = `${CLOUDINARY}/v1539029838/wundershine-web-app/iphone-pack-selection.png`
+export const ORDER_PACK = `${CLOUDINARY}/v1539271999/wundershine-web-app/iphone-pack-selection.png`
 
-export const ADD_PHOTOS = `${CLOUDINARY}/v1539029756/wundershine-web-app/hiker-mountain.jpg`
-export const ADD_PHOTOS_SMALL = `${CLOUDINARY}/q_90/v1539100492/wundershine-web-app/hiker-mountain-small.jpg`
+export const ADD_PHOTOS = `${CLOUDINARY}/v1539271999/wundershine-web-app/hiker-mountain.jpg`
+export const ADD_PHOTOS_SMALL = `${CLOUDINARY}/v1539271995/wundershine-web-app/hiker-mountain-small.jpg`
 
-export const LAYOUT_FREEDOM_ROW = `${CLOUDINARY}/v1539029735/wundershine-web-app/layout-freedom-row.png`
-export const LAYOUT_FREEDOM_GRID = `${CLOUDINARY}/v1539030103/wundershine-web-app/layout-freedom-grid.png`
+export const LAYOUT_FREEDOM_ROW = `${CLOUDINARY}/w_1800/v1539272001/wundershine-web-app/layout-freedom-row.png`
+export const LAYOUT_FREEDOM_GRID = `${CLOUDINARY}/v1539274241/wundershine-web-app/layout-freedom-grid.png`
 
-export const SHOWCASE = `${CLOUDINARY}/v1539030354/wundershine-web-app/showcase-table.jpg`
+export const SHOWCASE = `${CLOUDINARY}/w_1400/v1539272012/wundershine-web-app/showcase-table.jpg`
 
-export const REFRAME_WALL_SINGLE = `${CLOUDINARY}/w_500/v1539029852/wundershine-web-app/reframe-wall-single.png`
-export const REFRAME_WALL_3PACK = `${CLOUDINARY}/w_500/v1539029819/wundershine-web-app/reframe-wall-3pack.png`
+export const REFRAME_WALL_SINGLE = `${CLOUDINARY}/v1539272012/wundershine-web-app/reframe-wall-single.png`
+export const REFRAME_WALL_3PACK = `${CLOUDINARY}/v1539272008/wundershine-web-app/reframe-wall-3pack.png`
 
 /* Native App Page */
-export const APP_PRINT_STACK = `${CLOUDINARY}/v1539030220/wundershine-web-app/app-print-stack.jpg`
+export const APP_PRINT_STACK = `${CLOUDINARY}/v1539271989/wundershine-web-app/app-print-stack.jpg`
 
 /* Creative Page */
 export const ASSEMBLY_FRAME = `${CLOUDINARY}/v1539253665/wundershine-web-app/assembly/frame.jpg`
