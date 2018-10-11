@@ -23,6 +23,9 @@ export default class Showcase extends React.Component {
         <div className='page-section showcase'>
           <Grid>
             <Row middle='xs'>
+              <Col xs={10} xsOffset={1} className='hidden-md hidden-lg'>
+                <h2>{t('showcase.title')}</h2>
+              </Col>
               <Col md={12} lg={8}>
                 <div className='showcase-container'>
                   <AspectRatio ratio='2128/1467'>
@@ -34,7 +37,7 @@ export default class Showcase extends React.Component {
                 </div>
               </Col>
               <Col xs={10} xsOffset={1} lg={4} lgOffset={0}>
-                <h2>{t('showcase.title')}</h2>
+                <h2 className='hidden-xs hidden-sm'>{t('showcase.title')}</h2>
                 <p>{t('showcase.description')}</p>
                 <div className='button-container'>
                   <Button

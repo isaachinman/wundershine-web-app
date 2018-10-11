@@ -9,7 +9,7 @@ export default css`
   }
   @media only screen and (max-width: 767px) {
     .page-section.order-pack img.iphone {
-      margin: 30px 0 0 0;
+      margin: 0 0 0 0;
     }
   }
 `

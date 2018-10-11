@@ -53,12 +53,13 @@ export default css`
 
   .menu-wrapper {
     background-color: white;
-    height: calc(100% - 60px);
-    padding: 30px 0;
+    height: 100%;
   }
   .menu-wrapper a.link {
     display: block;
-    margin: 0 0 20px 0;
+    padding: 30px;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
   }
 
   .mobile {

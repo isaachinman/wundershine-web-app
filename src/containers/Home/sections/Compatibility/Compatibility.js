@@ -22,7 +22,7 @@ export default class Compatibility extends React.Component {
         <div className='page-section compatibility'>
           <Grid>
             <Row>
-              <Col xs={12} md={8}>
+              <Col xs={10} xsOffset={1} md={8} mdOffset={0}>
                 <AspectRatio ratio='1200/834'>
                   <img
                     src={COMPATIBILITY_BOX}

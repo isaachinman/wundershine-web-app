@@ -33,7 +33,8 @@ export default css`
       text-align: center !important;
     }
     .page-section.add-photos {
-      padding: 0 0 360px 0;
+      min-height: 600px;
+      align-items: flex-start;
       background-image: url(${ADD_PHOTOS_SMALL});
     }
     .provider-icon-container {

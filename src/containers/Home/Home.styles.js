@@ -18,7 +18,7 @@ export default css`
   @media only screen and (max-width: 576px) {
     .page-section {
       text-align: center;
-      padding: 30px 0;
+      padding: 30px 0 60px 0;
     }
   }
 `

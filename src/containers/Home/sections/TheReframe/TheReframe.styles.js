@@ -1,7 +1,7 @@
 import css from 'styled-jsx/css'
 
 export default css`
-   .page-section.reframe {
+  .page-section.reframe {
     text-align: center;
     background: rgb(252,252,252);
     background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(244,244,244,1) 37%, rgba(226,226,226,1) 61%, rgba(211,211,211,1) 100%);
@@ -14,9 +14,6 @@ export default css`
     margin-left: 1.3%;
   }
 
-  /* .button-container {
-    
-  } */
   .color-selector {
     display: inline-block;
     width: 20px;
@@ -49,6 +46,13 @@ export default css`
 
   .color-selector.active {
     border: 2px solid #ccc;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .page-section.reframe {
+    background: rgb(252,252,252);
+    background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(244,244,244,1) 60%, rgba(226,226,226,1) 80%, rgba(211,211,211,1) 100%);
+    }
   }
 
 `

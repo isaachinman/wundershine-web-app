@@ -18,7 +18,7 @@ export default css`
       text-align: center;
     }
     .page-section.showcase .showcase-container {
-      padding: 0;
+      padding: 40px 0;
     }
   }
 `

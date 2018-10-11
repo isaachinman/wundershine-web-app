@@ -27,6 +27,9 @@ export default css`
     margin-top: 40px;
     color: #003569;
   }
+  p.padded-top {
+    padding-top: 20px;
+  }
   @media only screen and (max-width: 1199px) {
     .page-section.whats-showing {
       background-position: calc(100% + 100px) 100%;
@@ -47,6 +50,9 @@ export default css`
     }
   }
   @media only screen and (max-width: 576px) {
+    h2 {
+      margin-bottom: -10px
+    }
     .page-section.whats-showing {
       background-image: url(${WHATS_SHOWING_SMALL});
       min-height: 400px;

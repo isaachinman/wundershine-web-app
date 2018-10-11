@@ -52,7 +52,7 @@ export default css`
   }
   @media only screen and (max-width: 767px) {
     .page-section.add-to-queue {
-      padding: 160px 0;
+      min-height: 500px;
       background-image: url(${ADD_TO_QUEUE_SMALL});
     }
   }

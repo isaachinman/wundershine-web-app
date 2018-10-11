@@ -7,7 +7,6 @@ import { Col, Grid, Row } from 'react-flexbox-grid'
 import {
   APP_STORE_TRANSPARENT,
   PLAY_STORE_TRANSPARENT,
-  WALL_PLAYLIST,
 } from 'images'
 
 import baseStyles from '../../Home.styles'
@@ -27,11 +26,7 @@ export default class WallPlaylist extends React.Component {
               <Col xs={10} xsOffset={1} mdOffset={0} md={6}>
                 <div className='wall-playlist-img-container'>
                   <AspectRatio ratio='260/671' style={{ maxWidth: 300, margin: '0 0 0 auto' }}>
-                    <img
-                      className='wall-playlist'
-                      src={WALL_PLAYLIST}
-                      alt={t('playlist.title')}
-                    />
+                    <div className='iphone-image' />
                   </AspectRatio>
                 </div>
               </Col>
