@@ -1,3 +1,4 @@
+import compression from 'compression'
 import express from 'express'
 import path from 'path'
 import next from 'next'
@@ -48,6 +49,7 @@ i18nClient
       app.prepare().then(() => {
 
         const server = express()
+        server.use(compression())
 
         server.use((req, res, cb) => {
           res.removeHeader('x-powered-by')
