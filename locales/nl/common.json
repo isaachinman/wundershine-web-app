@@ -1,11 +1,32 @@
 {
+  "languages": {
+    "en": "Engels",
+    "nl": "Nederlands"
+  },
   "navbar": {
+    "imgAlt": {
+      "burger": "Menu"
+    },
     "links": {
-      "home": "Startseite",
+      "home": "Home",
       "app": "App",
-      "about": "Über uns",
-      "creative": "Kreativ",
-      "shop": "Einkaufen"
+      "about": "Over ons",
+      "creative": "Creatief",
+      "shop": "Shop"
     }
+  },
+  "footer": {
+    "followUs": {
+      "title": "Volg ons"
+    },
+    "navigation": {
+      "title": "Navigatie"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "language": "Taal",
+    "termsOfService": "Voorwaarden",
+    "privacyPolicy": "Privacyverklaring"
   }
 }

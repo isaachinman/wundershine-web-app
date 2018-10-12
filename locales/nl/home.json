@@ -1,3 +1,71 @@
 {
-  "title": "Willkommen zu Wundershine"
+  "title": "Willkommen zu Wundershine",
+  "smartFraming": {
+    "title": "Slimme wissellijsten",
+    "description": "Het Wundershine systeem maakt het super makkelijk om altijd leuke, recente foto's mooi ingelijst aan de muur te hebben - direct van je mobiele telefoon.\n\n"
+  },
+  "refresh": {
+    "title": "Ververs zo vaak als je wil",
+    "description": "Lijsten hoeven niet meer van de muur en vergeet meetlinten, rekenmachines, stanleymessen, metalen clips, plakband en pijnlijke fouten.."
+  },
+  "easyLoading": {
+    "title": "Makkelijk laden",
+    "description": "Onzichtbare ingang aan de onderkant om foto's in één stap te wisselen. Handige grijp uitsparing voor je duim en wijsvinger."
+  },
+  "reframe": {
+    "title": "De Reframe",
+    "description": "Premium kwaliteit massief hout. Een uniek binnenwerk met verschillende lagen geleidt en klemt de print vast."
+  },
+  "compatibility": {
+    "title": "Exact passende prints thuisbezorgd",
+    "description": "Je hoeft je bijzondere foto's niet meer kwijt te raken tussen duizenden screenshots, folders en apps op verschillende apparaten. Blader door de grote afdrukken en koester je herinneringen."
+  },
+  "whatsShowing": {
+    "title": "Wat zien we vandaag?",
+    "description": "Een speciale afbeelding voor elke gelegenheid.",
+    "hashtags": "#kerstmis #dreamingofawhite #annakomtlangs #reunie"
+  },
+  "playlist": {
+    "title": "Maak een playlist voor je muur",
+    "description": "Gebruik de app om stapsgewijs foto's aan je wachtrij toe te voegen. Deel naar je wachtrij vanuit apps zoals Instagram en Google Photos. Ook foto's van je digitale camera kun je makkelijk toevoegen."
+  },
+  "addToQueue": {
+    "title": "Voeg op elk moment foto's toe aan je wachtrij",
+    "description": "Zorg er met twee taps voor dat een foto later op de muur van je huis verschijnt. Het is niet nodig om op dat moment al een bestelling te doen."
+  },
+  "orderPack": {
+    "title": "Bestel een print pack als je er klaar voor bent",
+    "description": "Onze galerie kwaliteit prints worden afgedrukt op premium card stock met een chique, matte afwerking. Bij alle Reframe bestellingen zit een kortingscode voor een gratis 5-Pack inclusief bezorgkosten.\n\n"
+  },
+  "addPhotos": {
+    "title": "Voeg foto's van je digitale camera toe",
+    "description": "Upload naar Google Photos, iCloud of een andere cloud service en selecteer beelden voor je Reframe met de Wundershine app."
+  },
+  "layoutFreedom": {
+    "title": "Creatieve layout vrijheid",
+    "description": "Gebruik de editing tools in de app om foto's bij te snijden of in te zoomen. Rechthoekige beelden in portret of landschap oriëntatie kunnen ook worden vertoond. Afdrukken en layouts passen altijd perfect in de Reframe. "
+  },
+  "showcase": {
+    "title": "Maak je eigen kunst met creatieve apps.",
+    "description": "Met de nieuwe creatieve apps in de app stores bewerk je met een paar taps of swipes je foto's en ideëen tot geraffineerde kunstwerken. Vervolgens hoef je alleen maar op share te drukken om je creaties in je Wundershine wachtrij te zetten."
+  },
+  "cta": {
+    "title": "Aan de slag",
+    "description": "Als je een bestelling plaatst voor een Reframe, krijg je direct een email met een persoonlijke kortingscode die je in de mobiele app kunt gebruiken voor een gratis eerste print pack.",
+    "shopNow": "Bestellen"
+  },
+  "products": {
+    "reframe": {
+      "title": "Reframe",
+      "description": "Ideale starters kit. Bevat kortingscode voor 5 gratis afdrukken."
+    },
+    "reframeThreePack": {
+      "title": "Reframe 3-Pack",
+      "description": "Bespaar 16% per Reframe. Bevat kortingscode voor 15 gratis afdrukken."
+    }
+  },
+  "limitedSupply": {
+    "title": "Beperkte beschikbaarheid",
+    "description": "We zijn een nieuw bedrijf en kunnen nog geen grote aantallen Reframes produceren. We groeien snel, maar vooralsnog zullen niet altijd alle kleuren beschikbaar zijn. Als er SOLD OUT staat bij het product waar je voorkeur naar uit gaat, laat dan je email adres achter in de chat box rechts onderin deze pagina en geef aan welk product je zou willen kopen. We nemen dan contact op zodra we informatie over beschikbaarheid hebben.\n\n"
+  }
 }

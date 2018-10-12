@@ -4,7 +4,7 @@ export default css`
   .container {
     text-align: center;
     padding: 50px 0;
-    background: linear-gradient(180deg, rgba(217,217,217,1) 0%, rgba(244,244,244,1) 20%, rgba(250,250,250,1) 42%, rgba(252,252,252,1) 100%);
+    background: linear-gradient(180deg, rgba(228,228,228,1) 0%, rgba(244,244,244,1) 20%, rgba(250,250,250,1) 42%, rgba(252,252,252,1) 100%);
   }
   .hero {
     padding: calc(50vh - 300px) 0;

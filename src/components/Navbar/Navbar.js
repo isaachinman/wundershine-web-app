@@ -120,7 +120,7 @@ export default class Navbar extends React.Component {
           <Grid>
             <div className='hidden-xs hidden-sm'>
               <Row middle='xs'>
-                <Col xs={6} sm={4}>
+                <Col xs={6} sm={4} md={3}>
                   <div className='logo-container'>
                     <Link prefetch href='/'>
                       <a>
@@ -132,7 +132,7 @@ export default class Navbar extends React.Component {
                     </Link>
                   </div>
                 </Col>
-                <Col sm={4} className='hidden-xs hidden-sm'>
+                <Col md={6} className='hidden-xs hidden-sm'>
                   <div className='align-center'>
                     <Link prefetch href='/'>
                       <a className='link'>{t('navbar.links.home')}</a>
@@ -148,7 +148,7 @@ export default class Navbar extends React.Component {
                     </Link>
                   </div>
                 </Col>
-                <Col xs={3} sm={4}>
+                <Col xs={3} sm={4} md={3}>
                   <div className='align-right'>
                     <a
                       className='shop'

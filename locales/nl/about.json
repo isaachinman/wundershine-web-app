@@ -1,6 +1,34 @@
 {
   "meta": {
-    "title": "Über uns"
+    "title": "Over ons - Wundershine"
   },
-  "title": "Über uns"
+  "title": "OVER ONS",
+  "headline": "Onze missie"
+  "disconnect": "We maken met zijn allen meer en betere foto's dan ooit, maar ze blijven verborgen in digitale apparaten. De muren van onze leefruimtes zijn altijd een geliefde plek geweest om dagelijks van foto's en kunst te genieten, maar er is een mismatch:",
+  "photographyToday": {
+    "title": "Fotografie van nu",
+    "line1": "Smartphones",
+    "line2": "Heel veel foto's",
+    "line3": "Speels",
+    "line4": "Recente ervaringen"
+  },
+  "photographyTraditional": {
+    "title": "Traditioneel inlijsten",
+    "line1": "Dit is DE FOTO",
+    "line2": "Voor jaren inlijsten",
+    "line3": "Een project voor het weekend",
+    "line4": "Gedateerde foto's"
+  },
+  "reimagining": {
+    "title": "Tijd voor een re-imagining...",
+    "description": "Wundershine producten gebruiken slimme technologie waarmee je muur decor steeds recente momenten kan laten zien. Foto's of kunst die je nu leuk vindt. Dat doen we niet met nog meer schreeuwerige schermen, stekkers en snoeren, maar met natuurlijke materialen en een moderne, on-demand service via de smartphone."
+  },
+  "joinUs": {
+    "title": "Versterk ons team",
+    "description": "Wundershine groeit snel en we zijn op zoek naar exceptionele mensen die enthousiast worden als kunst en technologie elkaar ontmoeten. Neem contact op via careers@wundershine.com als je interesse hebt om bij te dragen aan onze missie."
+  },
+  "press": {
+    "title": "Pers",
+    "description": "We vertellen graag meer over het Wundershine systeem en ons bedrijf. Aarzel niet om contact op te nemen via contact@wundershine.com."
+  }
 }

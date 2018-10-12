@@ -3,7 +3,7 @@ import css from 'styled-jsx/css'
 export default css`
   .container {
     padding: 50px 0;
-    background: linear-gradient(180deg, rgba(217,217,217,1) 0%, rgba(255,255,255,1) 8%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 8%, rgba(255,255,255,1) 100%);
   }
   .hero {
     text-align: center;

@@ -21,7 +21,7 @@ export default css`
   .whats-showing-text {
     min-height: 500px;
     background-color: white;
-    padding: 80px 0;
+    padding: 80px 20px 80px 0;
   }
   p.hashtags {
     margin-top: 40px;
@@ -36,6 +36,9 @@ export default css`
     }
   }
   @media only screen and (max-width: 991px) {
+    .whats-showing-text {
+      padding: 80px 0;
+    }
     .page-section.whats-showing {
       min-height: 800px;
       background-image: url(${WHATS_SHOWING_MEDIUM});
