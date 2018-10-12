@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import { Loader } from 'components'
+import Tooltip from 'react-tooltip'
 
 import {
   REFRAME_SINGLE_BLACK,
@@ -16,13 +17,13 @@ import baseStyles from '../../Home.styles'
 import styles from './TheReframe.styles'
 
 const options = {
-  walnut: {
-    value: 'walnut',
-    src: REFRAME_SINGLE_WALNUT,
-  },
   oak: {
     value: 'oak',
     src: REFRAME_SINGLE_OAK,
+  },
+  walnut: {
+    value: 'walnut',
+    src: REFRAME_SINGLE_WALNUT,
   },
   white: {
     value: 'white',
@@ -92,34 +93,17 @@ export default class TheReframe extends React.Component {
             </Row>
             <Row>
               <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
-                <div
-                  onClick={() => this.changeSelected(options.oak)}
-                  onKeyDown={() => this.changeSelected(options.oak)}
-                  role='button'
-                  tabIndex={0}
-                  className={`color-selector oak ${options[selected].value === 'oak' ? 'active' : 'inactive'}`}
-                />
-                <div
-                  onClick={() => this.changeSelected(options.walnut)}
-                  onKeyDown={() => this.changeSelected(options.walnut)}
-                  role='button'
-                  tabIndex={0}
-                  className={`color-selector walnut ${options[selected].value === 'walnut' ? 'active' : 'inactive'}`}
-                />
-                <div
-                  onClick={() => this.changeSelected(options.white)}
-                  onKeyDown={() => this.changeSelected(options.white)}
-                  role='button'
-                  tabIndex={0}
-                  className={`color-selector white ${options[selected].value === 'white' ? 'active' : 'inactive'}`}
-                />
-                <div
-                  onClick={() => this.changeSelected(options.black)}
-                  onKeyDown={() => this.changeSelected(options.black)}
-                  role='button'
-                  tabIndex={0}
-                  className={`color-selector black ${options[selected].value === 'black' ? 'active' : 'inactive'}`}
-                />
+                <Tooltip effect='solid' />
+                {Object.keys(options).map(color => (
+                  <div
+                    onClick={() => this.changeSelected(options[color])}
+                    onKeyDown={() => this.changeSelected(options[color])}
+                    role='button'
+                    tabIndex={0}
+                    className={`color-selector ${color} ${options[selected].value === color ? 'active' : 'inactive'}`}
+                    data-tip={t(`common:frameColors.${color}`)}
+                  />
+                ))}
               </Col>
             </Row>
           </Grid>

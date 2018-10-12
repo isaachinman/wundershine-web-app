@@ -15,6 +15,12 @@
       "shop": "Shop"
     }
   },
+  "frameColors": {
+    "oak": "Massief eiken",
+    "walnut": "Massief walnoot",
+    "white": "Wit",
+    "black": "Zwart"
+  },
   "footer": {
     "followUs": {
       "title": "Volg ons"

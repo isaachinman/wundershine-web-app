@@ -15,6 +15,12 @@
       "shop": "Shop"
     }
   },
+  "frameColors": {
+    "oak": "Solid Oak",
+    "walnut": "Solid Walnut",
+    "white": "White",
+    "black": "Black"
+  },
   "footer": {
     "followUs": {
       "title": "Follow us"

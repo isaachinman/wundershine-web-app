@@ -37,7 +37,8 @@
     "react-dom": "^16.4.1",
     "react-dropdown": "^1.6.2",
     "react-flexbox-grid": "^2.1.2",
-    "react-i18next": "8.0.6"
+    "react-i18next": "8.0.6",
+    "react-tooltip": "^3.9.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.1.2",
