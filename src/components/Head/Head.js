@@ -31,6 +31,8 @@ export default class Head extends React.Component {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href={config.favicon} />
 
+        <meta name='google-site-verification' content='e5kQ2Ew4lGddZOTpYEv_lmH5svjEKothxj9yETI1RIU' />
+
         {/* External stylesheets */}
         <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet' />
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Vollkorn:400,700' rel='stylesheet' />
