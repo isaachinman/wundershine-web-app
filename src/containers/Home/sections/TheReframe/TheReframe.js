@@ -96,6 +96,7 @@ export default class TheReframe extends React.Component {
                 <Tooltip effect='solid' />
                 {Object.keys(options).map(color => (
                   <div
+                    key={`reframe-color-${color}`}
                     onClick={() => this.changeSelected(options[color])}
                     onKeyDown={() => this.changeSelected(options[color])}
                     role='button'
