@@ -34,7 +34,7 @@ export default class Footer extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={12} sm={3}>
+              <Col sm={12} md={3}>
                 <div className='section-title'>
                   {t('footer.followUs.title')}
                 </div>
@@ -63,7 +63,7 @@ export default class Footer extends React.Component {
                   AngelList
                 </a>
               </Col>
-              <Col xs={12} sm={3}>
+              <Col sm={12} md={3}>
                 <div className='section-title'>
                   {t('footer.navigation.title')}
                 </div>
@@ -80,7 +80,7 @@ export default class Footer extends React.Component {
                   <a className='footer-link'>{t('navbar.links.about')}</a>
                 </Link>
               </Col>
-              <Col xs={12} sm={3}>
+              <Col sm={12} md={3}>
                 <div className='section-title'>
                   {t('footer.contact.title')}
                 </div>
@@ -103,7 +103,7 @@ export default class Footer extends React.Component {
                   bizdev@wundershine.com
                 </a>
               </Col>
-              <Col xs={12} sm={3}>
+              <Col sm={12} md={3}>
                 <div className='section-title'>
                   {t('footer.language')}
                 </div>

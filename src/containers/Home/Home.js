@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Head } from 'components'
 import { translate } from 'utils/i18n'
 
 import {
@@ -28,6 +29,10 @@ export default class Home extends React.Component {
 
     return (
       <React.Fragment>
+        <Head
+          title={`Wundershine | ${t('meta.title')}`}
+          description={t('meta.description')}
+        />
         <Hero t={t} />
         <RefreshAtWill t={t} />
         <EasyLoading t={t} />
