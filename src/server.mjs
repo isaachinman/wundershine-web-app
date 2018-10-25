@@ -1,8 +1,8 @@
 import compression from 'compression'
 import express from 'express'
-import path from 'path'
+import path, { join } from 'path'
 import next from 'next'
-import url from 'url'
+import url, { parse } from 'url'
 import i18nMiddleware from 'i18next-express-middleware'
 import Backend from 'i18next-node-fs-backend'
 import i18nClient from './utils/i18n/i18n-client'
@@ -80,19 +80,30 @@ i18nClient
 
         // Use NextJs
         server.get('*', (req, res) => {
-          // If req.url contains a language subpath, remove
-          // it so that NextJS will render the correct page
-          let strippedRoute = req.url
-          for (const lng of allLanguages) {
-            if (req.url.startsWith(`/${lng}/`)) {
-              strippedRoute = strippedRoute.replace(`/${lng}/`, '/')
-              break
-            }
-          }
-          if (strippedRoute !== req.url) {
-            app.render(req, res, strippedRoute)
+
+          // Serve static files
+          const parsedUrl = parse(req.url, true)
+          const rootStaticFiles = ['/robots.txt', '/sitemap.xml']
+          if (rootStaticFiles.includes(parsedUrl.pathname)) {
+            const staticPath = join(__dirname, 'static', parsedUrl.pathname)
+            app.serveStatic(req, res, staticPath)
           } else {
-            handle(req, res)
+
+            // If req.url contains a language subpath, remove
+            // it so that NextJS will render the correct page
+            let strippedRoute = req.url
+            for (const lng of allLanguages) {
+              if (req.url.startsWith(`/${lng}/`)) {
+                strippedRoute = strippedRoute.replace(`/${lng}/`, '/')
+                break
+              }
+            }
+            if (strippedRoute !== req.url) {
+              app.render(req, res, strippedRoute)
+            } else {
+              handle(req, res)
+            }
+
           }
         })
 
