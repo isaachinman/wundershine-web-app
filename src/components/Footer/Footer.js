@@ -70,7 +70,7 @@ export default class Footer extends React.Component {
                 <Link prefetch href='/'>
                   <a className='footer-link'>{t('navbar.links.home')}</a>
                 </Link>
-                <Link prefetch href='/native-app'>
+                <Link prefetch href='/app'>
                   <a className='footer-link'>{t('navbar.links.app')}</a>
                 </Link>
                 <Link prefetch href='/creative'>

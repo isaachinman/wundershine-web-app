@@ -50,8 +50,8 @@ export default class Navbar extends React.Component {
               </a>
               <a
                 className='link'
-                onClick={() => this.redirectFromWithinMenu('/native-app')}
-                onKeyDown={() => this.redirectFromWithinMenu('/native-app')}
+                onClick={() => this.redirectFromWithinMenu('/app')}
+                onKeyDown={() => this.redirectFromWithinMenu('/app')}
                 role='button'
                 tabIndex={0}
               >
@@ -137,7 +137,7 @@ export default class Navbar extends React.Component {
                     <Link prefetch href='/'>
                       <a className='link'>{t('navbar.links.home')}</a>
                     </Link>
-                    <Link prefetch href='/native-app'>
+                    <Link prefetch href='/app'>
                       <a className='link'>{t('navbar.links.app')}</a>
                     </Link>
                     <Link prefetch href='/creative'>
