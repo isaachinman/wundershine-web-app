@@ -5,6 +5,7 @@ import { i18nClient, languagePathCorrection } from 'utils/i18n'
 import NextApp, { Container } from 'next/app'
 import { NamespacesConsumer } from 'react-i18next'
 import Router from 'next/router'
+import { translation } from 'config'
 
 import { Footer, Head, Navbar } from 'components'
 
@@ -36,9 +37,17 @@ i18nClient.on('languageChanged', (lng) => {
 })
 
 export default class App extends NextApp {
+
+  static async getInitialProps({ ctx }) {
+    return {
+      initialLanguage: ctx.req.language
+        ? ctx.req.language : translation.defaultLanguage,
+    }
+  }
+
   render() {
 
-    const { Component, pageProps } = this.props
+    const { Component, initialLanguage, pageProps } = this.props
 
     return (
       <Container>
@@ -46,6 +55,7 @@ export default class App extends NextApp {
           {...pageProps}
           ns='common'
           i18n={(pageProps && pageProps.i18n) || i18nClient}
+          initialLanguage={initialLanguage}
           wait={false}
         >
           {t => (
