@@ -55,7 +55,7 @@ if (!process.browser) {
 
   config.translation = {
     ...config.translation,
-    preload: ['en'],
+    preload: config.translation.allLanguages,
     ns: getAllNamespaces(`${process.cwd()}/src/${LOCALE_PATH}/${config.translation.defaultLanguage}`),
     backend: {
       loadPath: `${process.cwd()}/src/${LOCALE_PATH}/${LOCALE_STRUCTURE}.json`,
