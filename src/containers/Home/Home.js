@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Head } from 'components'
-import { translate } from 'utils/i18n'
+import { withNamespaces } from 'utils/i18n'
 
 import {
   AddPhotos,
@@ -21,7 +21,7 @@ import {
   WallPlaylist,
 } from './sections'
 
-@translate(['home'])
+@withNamespaces(['home'])
 export default class Home extends React.Component {
   render() {
 
@@ -52,6 +52,6 @@ export default class Home extends React.Component {
   }
 }
 
-Home.propTypes = {
+Home.WrappedComponent.propTypes = {
   t: PropTypes.func.isRequired,
 }

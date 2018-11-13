@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 import { Head } from 'components'
 
-// @translate(['common'])
 export default class Error extends React.Component {
 
   static getInitialProps({ res, err }) {

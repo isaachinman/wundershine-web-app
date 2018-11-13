@@ -10,11 +10,11 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "dev": "nodemon --watch locales -- --experimental-modules src/server.mjs",
-    "lint": "eslint src && jsonlint-cli locales/*/*.json",
+    "dev": "nodemon --watch locales -- --experimental-modules src/server.js",
+    "lint": "eslint src && jsonlint-cli src/static/locales/*/*.json",
     "lint:fix": "eslint src --fix",
     "build": "next build src",
-    "start": "NODE_ENV=production node --experimental-modules src/server.mjs",
+    "start": "NODE_ENV=production node --experimental-modules src/server.js",
     "postinstall": "yarn build"
   },
   "pre-commit": [

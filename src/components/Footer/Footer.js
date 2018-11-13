@@ -5,12 +5,13 @@ import { Col, Grid, Row } from 'react-flexbox-grid'
 import config from 'config'
 import Dropdown from 'react-dropdown'
 import getYear from 'date-fns/get_year'
-import { i18nClient } from 'utils/i18n'
+import { i18nClient, withNamespaces } from 'utils/i18n'
 import Link from 'next/link'
 import { Logo } from 'components'
 
 import styles from './Footer.styles'
 
+@withNamespaces('common')
 export default class Footer extends React.Component {
   render() {
     const { t } = this.props
@@ -155,6 +156,6 @@ export default class Footer extends React.Component {
   }
 }
 
-Footer.propTypes = {
+Footer.WrappedComponent.propTypes = {
   t: PropTypes.func.isRequired,
 }

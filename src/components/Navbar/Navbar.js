@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { withNamespaces } from 'utils/i18n'
+
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import Link from 'next/link'
 import { Logo } from 'components'
@@ -11,6 +13,7 @@ import { BURGER_NAV } from 'images'
 
 import styles from './Navbar.styles.js'
 
+@withNamespaces('common')
 export default class Navbar extends React.Component {
 
   state = {
@@ -167,6 +170,6 @@ export default class Navbar extends React.Component {
   }
 }
 
-Navbar.propTypes = {
+Navbar.WrappedComponent.propTypes = {
   t: PropTypes.func.isRequired,
 }

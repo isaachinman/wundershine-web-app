@@ -4,12 +4,12 @@ import PropTypes from 'prop-types'
 import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import { Head } from 'components'
-import { translate } from 'utils/i18n'
+import { withNamespaces } from 'utils/i18n'
 
 import appContent from './app-content'
 import styles from './Creative.styles'
 
-@translate(['creative'])
+@withNamespaces(['creative'])
 export default class Creative extends React.Component {
   render() {
 
@@ -94,6 +94,6 @@ export default class Creative extends React.Component {
   }
 }
 
-Creative.propTypes = {
+Creative.WrappedComponent.propTypes = {
   t: PropTypes.func.isRequired,
 }

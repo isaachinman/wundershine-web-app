@@ -3,11 +3,11 @@ import React from 'react'
 
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import { Head } from 'components'
-import { translate } from 'utils/i18n'
+import { withNamespaces } from 'utils/i18n'
 
 import styles from './PrivacyPolicy.styles'
 
-@translate(['common'])
+@withNamespaces(['common'])
 export default class PrivacyPolicy extends React.Component {
   render() {
     return (
