@@ -28,33 +28,33 @@ export default class NativeApp extends React.Component {
         <style jsx>{styles}</style>
         <div className='container'>
           <Grid>
-            <div className='hero'>
-              <Row>
-                <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
-                  <h1>{t('title')}</h1>
-                  <h2>{t('headline')}</h2>
+            <Row>
+              <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
+                <div className='hero-text'>
+                  <h2>{t('title')}</h2>
+                  <h1>{t('headline')}</h1>
                   <p>{t('description')}</p>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs={12}>
-                  <a href='https://itunes.apple.com/us/app/wundershine/id1393694636?ls=1&mt=8'>
-                    <img
-                      className='store-icon'
-                      src={APP_STORE_BLACK}
-                      alt='App Store'
-                    />
-                  </a>
-                  <a href='https://play.google.com/store/apps/details?id=com.wundershine.app'>
-                    <img
-                      className='store-icon'
-                      src={PLAY_STORE_BLACK}
-                      alt='Google Play Store'
-                    />
-                  </a>
-                </Col>
-              </Row>
-            </div>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12}>
+                <a href='https://itunes.apple.com/us/app/wundershine/id1393694636?ls=1&mt=8'>
+                  <img
+                    className='store-icon'
+                    src={APP_STORE_BLACK}
+                    alt='App Store'
+                  />
+                </a>
+                <a href='https://play.google.com/store/apps/details?id=com.wundershine.app'>
+                  <img
+                    className='store-icon play-store'
+                    src={PLAY_STORE_BLACK}
+                    alt='Google Play Store'
+                  />
+                </a>
+              </Col>
+            </Row>
             <Row>
               <Col xs={10} xsOffset={1}>
                 <div className='printstack-container'>

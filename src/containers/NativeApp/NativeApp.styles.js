@@ -4,12 +4,12 @@ export default css`
   .container {
     text-align: center;
     padding: 50px 0;
-    background: linear-gradient(180deg, rgba(228,228,228,1) 0%, rgba(244,244,244,1) 20%, rgba(250,250,250,1) 42%, rgba(252,252,252,1) 100%);
+    background-color: #fafafa;
   }
-  .hero {
-    padding: calc(50vh - 300px) 0;
+  .hero-text {
+    padding: 0 20px;
   }
-  h1 {
+  h2 {
     font-family: 'Vollkorn', serif;
     text-transform: uppercase;
     font-size: 30px;
@@ -18,6 +18,9 @@ export default css`
   img.store-icon {
     height: 60px;
     margin: 50px 20px;
+  }
+  img.play-store {
+    height: 56px;
   }
   .printstack-container {
     margin: 50px 0;
@@ -28,8 +31,11 @@ export default css`
       padding: 30px 0;
     }
     img.store-icon {
-      height: 60px;
-      margin: 20px;
+      height: 40px;
+      margin: 10px;
+    }
+    img.play-store {
+      height: 39px;
     }
     .printstack-container {
       margin: 50px 0;
