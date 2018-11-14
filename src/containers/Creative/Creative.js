@@ -25,9 +25,9 @@ export default class Creative extends React.Component {
           <Grid>
             <div className='hero'>
               <Row>
-                <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
-                  <h1>{t('title')}</h1>
-                  <h2>{t('headline')}</h2>
+                <Col xs={10} xsOffset={1}>
+                  <h2>{t('title')}</h2>
+                  <h1>{t('headline')}</h1>
                   <p>{t('descriptionParagraph1')}</p>
                   <p>{t('descriptionParagraph2')}</p>
                 </Col>
@@ -36,7 +36,7 @@ export default class Creative extends React.Component {
             {appContent.map((app, index) => (
               <div key={app.id} className={`app-row ${index !== appContent.length - 1 ? 'with-border' : null}`}>
                 <Row>
-                  <Col xs={12} md={5} mdOffset={1}>
+                  <Col xs={8} xsOffset={2} md={5} mdOffset={1}>
                     <AspectRatio ratio='1/1' style={{ maxWidth: 480, margin: '0 auto' }}>
                       <img
                         alt={`${app.appName} Reframe`}
