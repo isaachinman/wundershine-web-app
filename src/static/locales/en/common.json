@@ -12,7 +12,8 @@
       "app": "App",
       "about": "About",
       "creative": "Creative",
-      "shop": "Shop"
+      "shopDesktop": "Shop Now",
+      "shopMobile": "Shop"
     }
   },
   "frameColors": {

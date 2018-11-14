@@ -1,7 +1,7 @@
 const CLOUDINARY = 'https://res.cloudinary.com/wundershine/image/upload'
 
 /* Logos and Icons */
-export const BURGER_NAV = `${CLOUDINARY}/v1539271990/wundershine-web-app/burger-icon.png`
+export const BURGER_NAV = `${CLOUDINARY}/v1542222483/wundershine-web-app/burger-icon.png`
 
 export const APP_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539271988/wundershine-web-app/appstore-transparent.png`
 export const PLAY_STORE_TRANSPARENT = `${CLOUDINARY}/q_100/v1539272003/wundershine-web-app/playstore-transparent.png`

@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css'
 
-export const NAVBAR_HEIGHT = 80
+export const NAVBAR_HEIGHT = 76
 export const NAVBAR_HEIGHT_MOBILE = 65
 
 export default css`
@@ -18,7 +18,7 @@ export default css`
     text-transform: uppercase;
   }
   a.link {
-    padding: 0 15px;
+    padding: 0 18px;
   }
   a.shop {
     width: auto;
@@ -48,18 +48,19 @@ export default css`
   }
 
   img.burger {
-    max-width: 35px;
+    max-width: 22px;
   }
 
   .menu-wrapper {
-    background-color: white;
+    background-color: #1c1d1d;
     height: 100%;
   }
   .menu-wrapper a.link {
+    color: white;
     display: block;
     padding: 30px;
-    font-size: 22px;
-    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    border-bottom: 1px solid #333;
   }
 
   .mobile {
@@ -71,15 +72,15 @@ export default css`
 
   @media only screen and (max-width: 767px) {
     .container {
-      width: calc(100vw - 60px);
+      width: calc(100vw - 40px);
       height: ${NAVBAR_HEIGHT_MOBILE}px;
       flex-direction: row;
-      padding: 0 30px;
+      padding: 0 20px;
     }
     .logo-container {
       text-align: center;
       flex: 1;
-      padding: 0 40px;
+      padding: 0 20px;
     }
     a.shop {
       max-height: 22px;

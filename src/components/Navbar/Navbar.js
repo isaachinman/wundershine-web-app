@@ -100,9 +100,8 @@ export default class Navbar extends React.Component {
             <div className='logo-container'>
               <div className='hidden-sm hidden-md hidden-lg'>
                 <Logo
-                  iconOnly
-                  color='#dddddd'
-                  maxWidth={40}
+                  // color='#dddddd'
+                  maxWidth={150}
                 />
               </div>
               <div className='hidden-xs'>
@@ -116,7 +115,7 @@ export default class Navbar extends React.Component {
               className='shop'
               href='https://shop.wundershine.com'
             >
-              {t('navbar.links.shop')}
+              {t('navbar.links.shopMobile')}
             </a>
           </div>
 
@@ -129,7 +128,7 @@ export default class Navbar extends React.Component {
                       <a>
                         <Logo
                           color='#232424'
-                          maxWidth={200}
+                          maxWidth={188}
                         />
                       </a>
                     </Link>
@@ -157,7 +156,7 @@ export default class Navbar extends React.Component {
                       className='shop'
                       href='https://shop.wundershine.com'
                     >
-                      {t('navbar.links.shop')}
+                      {t('navbar.links.shopDesktop')}
                     </a>
                   </div>
                 </Col>
