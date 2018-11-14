@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
                   <Logo
                     iconOnly
                     color='#232424'
-                    maxWidth={40}
+                    maxWidth={44}
                   />
                 </div>
               </Col>
@@ -143,10 +143,12 @@ export default class Footer extends React.Component {
             </Row>
             <Row center='xs'>
               <Col xs={12}>
-                &copy;
-                {getYear(new Date())}
-                &nbsp;
-                Wundershine VOF
+                <span className='bottom-link'>
+                  &copy;
+                  {getYear(new Date())}
+                  &nbsp;
+                  Wundershine VOF
+                </span>
               </Col>
             </Row>
           </Grid>

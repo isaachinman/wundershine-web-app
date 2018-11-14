@@ -22,10 +22,10 @@ export default css`
   }
   .final-section {
     padding: 20px 0 30px 0;
-    background-color: #fafafa;
   }
-  a.bottom-link {
+  .bottom-link {
     display: inline-block;
+    font-size: 13px;
     margin: 10px;
   }
   select.language {
@@ -38,6 +38,9 @@ export default css`
     min-width: 100px;
     margin: 5px 0;
     text-align: left;
+  }
+  .padded-section {
+    padding: 0 20px;
   }
   @media only screen and (max-width: 767px) {
     .footer {
