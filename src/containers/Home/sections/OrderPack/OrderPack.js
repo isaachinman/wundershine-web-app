@@ -22,10 +22,12 @@ export default class OrderPack extends React.Component {
         <div className='page-section order-pack'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
+              <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
                 <h2>{t('orderPack.title')}</h2>
                 <p>{t('orderPack.description')}</p>
-                <AspectRatio ratio='1368/1994' style={{ maxWidth: 500, margin: '0 auto' }}>
+              </Col>
+              <Col xs={8} xsOffset={2} md={6} mdOffset={3}>
+                <AspectRatio ratio='1368/1994' style={{ maxWidth: 485, margin: '0 auto' }}>
                   <img
                     className='iphone'
                     src={ORDER_PACK}
