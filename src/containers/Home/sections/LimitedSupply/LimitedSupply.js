@@ -17,7 +17,7 @@ export default class LimitedSupply extends React.Component {
         <div className='page-section limited-supply'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
+              <Col xs={10} xsOffset={1}>
                 <h3>{t('limitedSupply.title')}</h3>
                 <p>{t('limitedSupply.description')}</p>
               </Col>
