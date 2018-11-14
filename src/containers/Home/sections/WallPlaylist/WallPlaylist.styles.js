@@ -7,14 +7,16 @@ import {
 export default css`
   .page-section.wall-playlist {
     background-color: #fafafa;
+    padding: 100px 0 130px 0;
   }
   .wall-playlist-img-container {
     text-align: right;
     margin: 0 100px 0 0;
   }
   img.store-icon {
-    width: 140px;
-    height: 48px;
+    width: 155px;
+    max-width: 155px;
+    height: 55px;
     margin: 20px 20px 0 0;
   }
   img.store-icon:hover {
@@ -34,16 +36,19 @@ export default css`
   }
 
   @media only screen and (max-width: 1199px) {
+    .page-section.wall-playlist {
+      padding: 100px 70px 130px 70px;
+    }
     .wall-playlist-img-container {
       margin: 0 50px 0 0;
     }
   }
   @media only screen and (max-width: 767px) {
     .page-section.wall-playlist {
-      padding-bottom: 50px;
+      padding: 50px 0 70px 0;
     }
     .wall-playlist-img-container {
-      display: none;
+      margin: 30px auto;
     }
     img.store-icon {
       width: calc(50% - 20px);
