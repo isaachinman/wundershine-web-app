@@ -12,7 +12,8 @@
       "app": "App",
       "about": "Over ons",
       "creative": "Creatief",
-      "shop": "Shop"
+      "shopDesktop": "Shop",
+      "shopMobile": "Shop"
     }
   },
   "frameColors": {
