@@ -20,20 +20,35 @@ export default css`
     padding: 0 0 100px 0;
     text-align: right;
   }
-  @media only screen and (max-width: 767px) {
+  .text-container {
+    padding: 0 0 50px 0;
+    max-width: 460px;
+    margin: 0 0 0 auto;
+  }
+  @media only screen and (max-width: 991px) {
     .page-section.hero {
       align-items: flex-start;
       padding-top: 50px;
       background-image: url(${HOMEPAGE_HERO_SMALL});
       background-size: 100% auto;
       background-position: center bottom;
-      min-height: 600px;
+      min-height: 700px;
+      text-align: center;
+    }
+    .text-container {
+      padding: 0 0 50px 0;
+      max-width: 440px;
+      margin: 0 auto;
     }
   }
   @media only screen and (max-width: 576px) {
     .page-section.hero {
       padding-top: 30px;
       min-height: 500px;
+      background-size: 120% auto;
+    }
+    .text-container {
+      padding: 0 0 20px 0;
     }
   }
   @media only screen and (max-width: 530px) {
@@ -43,7 +58,7 @@ export default css`
   }
   @media only screen and (max-width: 400px) {
     .page-section.hero {
-      min-height: 420px;
+      min-height: 410px;
     }
   }
   @media only screen and (max-width: 350px) {

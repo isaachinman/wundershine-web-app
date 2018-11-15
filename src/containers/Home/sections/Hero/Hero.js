@@ -17,9 +17,11 @@ export default class Hero extends React.Component {
         <div className='page-section hero'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={5} mdOffset={1}>
-                <h1>{t('smartFraming.title')}</h1>
-                <p>{t('smartFraming.description')}</p>
+              <Col md={10} mdOffset={1} lg={5} lgOffset={0}>
+                <div className='text-container'>
+                  <h1>{t('smartFraming.title')}</h1>
+                  <p>{t('smartFraming.description')}</p>
+                </div>
               </Col>
             </Row>
           </Grid>
