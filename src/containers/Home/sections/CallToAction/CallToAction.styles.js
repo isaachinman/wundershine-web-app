@@ -45,8 +45,7 @@ export default css`
   }
   @media only screen and (max-width: 576px) {
     .page-section.cta {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding: 20px 20px 40px 20px;
     }
     .product-title {
       font-size: 26px;
