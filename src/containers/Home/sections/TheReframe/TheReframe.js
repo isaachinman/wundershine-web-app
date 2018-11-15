@@ -70,13 +70,13 @@ export default class TheReframe extends React.Component {
         <div className='page-section reframe'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={4} mdOffset={4}>
+              <Col xs={12}>
                 <h2>{t('reframe.title')}</h2>
-                <p>{t('reframe.description')}</p>
+                <p className='description'>{t('reframe.description')}</p>
               </Col>
             </Row>
             <Row>
-              <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
+              <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
                 <div className='reframe-image-container'>
                   <AspectRatio ratio='1/1'>
                     <img

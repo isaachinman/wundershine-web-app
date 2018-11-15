@@ -100,7 +100,7 @@ export default class Navbar extends React.Component {
             <div className='logo-container'>
               <div className='hidden-sm hidden-md hidden-lg'>
                 <Logo
-                  // color='#dddddd'
+                  color='#232424'
                   maxWidth={150}
                 />
               </div>
