@@ -13,24 +13,14 @@ export default class WhatsShowing extends React.Component {
       <React.Fragment>
         <style jsx>{baseStyles}</style>
         <style jsx>{styles}</style>
-
-        <div className='page-section whats-showing-mobile hidden-md hidden-lg'>
-          <Grid>
-            <Row>
-              <Col xs={10} xsOffset={1}>
-                <h2>{t('whatsShowing.title')}</h2>
-              </Col>
-            </Row>
-          </Grid>
-        </div>
         <div className='page-section whats-showing'>
           <Grid>
-            <Row className='hidden-xs hidden-sm'>
-              <Col md={3} lg={4}>
+            <Row>
+              <Col md={4}>
                 <div className='whats-showing-text'>
                   <h2>{t('whatsShowing.title')}</h2>
                   <p>{t('whatsShowing.description')}</p>
-                  <p className='hashtags'>{t('whatsShowing.hashtags')}</p>
+                  <p className='hashtags hidden-xs'>{t('whatsShowing.hashtags')}</p>
                 </div>
               </Col>
             </Row>
@@ -40,7 +30,6 @@ export default class WhatsShowing extends React.Component {
           <Grid>
             <Row>
               <Col xs={10} xsOffset={1}>
-                <p className='padded-top'>{t('whatsShowing.description')}</p>
                 <p className='hashtags'>{t('whatsShowing.hashtags')}</p>
               </Col>
             </Row>

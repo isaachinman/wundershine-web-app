@@ -33,7 +33,7 @@ export const COMPATIBILITY_BOX = `${CLOUDINARY}/v1539274113/wundershine-web-app/
 
 export const WHATS_SHOWING = `${CLOUDINARY}/v1539272014/wundershine-web-app/whats-showing.jpg`
 export const WHATS_SHOWING_MEDIUM = `${CLOUDINARY}/v1539272013/wundershine-web-app/whats-showing-medium-2.jpg`
-export const WHATS_SHOWING_SMALL = `${CLOUDINARY}/v1539272013/wundershine-web-app/whats-showing-small.jpg`
+export const WHATS_SHOWING_SMALL = `${CLOUDINARY}/v1542246095/wundershine-web-app/whats-showing-small.jpg`
 
 export const WALL_PLAYLIST = `${CLOUDINARY}/v1539272001/wundershine-web-app/iphone-queue-rotated.png`
 

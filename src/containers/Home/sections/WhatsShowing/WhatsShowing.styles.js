@@ -10,16 +10,16 @@ export default css`
   .page-section.whats-showing {
     padding: 0;
     background-image: url(${WHATS_SHOWING});
-    min-height: 500px;
     background-repeat:no-repeat;
     background-position: right center;
     background-size: contain;
   }
   .page-section.whats-showing-mobile {
     text-align: center;
+    padding: 15px 0 40px 0;
   }
   .whats-showing-text {
-    min-height: 500px;
+    min-height: 640px;
     background-color: white;
     padding: 80px 20px 80px 0;
   }
@@ -35,12 +35,23 @@ export default css`
       background-position: calc(100% + 100px) 100%;
     }
   }
+  @media only screen and (max-width: 1080px) {
+    .whats-showing-text {
+      min-height: 500px;
+    }
+  }
   @media only screen and (max-width: 991px) {
     .whats-showing-text {
       padding: 80px 0;
+      text-align: center;
+    }
+    .hashtags {
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .page-section.whats-showing {
-      min-height: 800px;
+      min-height: 500px;
       background-image: url(${WHATS_SHOWING_MEDIUM});
       background-repeat:no-repeat;
       background-position: center center;
@@ -53,8 +64,14 @@ export default css`
     }
   }
   @media only screen and (max-width: 576px) {
+    .hashtags {
+      max-width: 100%;
+    }
     h2 {
-      margin-bottom: -10px
+      margin-bottom: -10px;
+    }
+    .whats-showing-text {
+      padding: 30px 0 40px 0;
     }
     .page-section.whats-showing {
       background-image: url(${WHATS_SHOWING_SMALL});
