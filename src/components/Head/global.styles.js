@@ -30,6 +30,8 @@ export default `
   }
   h2 {
     font-size: 35px;
+    line-height: 1.13em;
+    margin-bottom: 0.65em;
   }
   a {
     cursor: pointer;
@@ -41,7 +43,7 @@ export default `
   }
   p {
     font-size: 17px;
-    line-height: 1.375em;
+    line-height: 1.415em;
     color: #797979;
   }
   @media (max-width: 576px) {
@@ -49,7 +51,7 @@ export default `
     font-size: 32px;
     }
     h2 {
-      font-size: 30px;
+      font-size: 22px;
     }
     p {
       font-size: 14px;
@@ -60,7 +62,7 @@ export default `
     font-size: 34px;
     }
     h2 {
-      font-size: 33px;
+      font-size: 28px;
     }
     p {
       font-size: 15px;
@@ -71,7 +73,7 @@ export default `
     font-size: 35px;
     }
     h2 {
-      font-size: 34px;
+      font-size: 30px;
     }
     p {
       font-size: 16px;

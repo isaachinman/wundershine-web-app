@@ -44,6 +44,9 @@ export default css`
     }
   }
   @media only screen and (max-width: 576px) {
+    .page-section.cta h3 {
+      font-size: 28px;
+    }
     .page-section.cta {
       padding: 20px 20px 40px 20px;
     }
