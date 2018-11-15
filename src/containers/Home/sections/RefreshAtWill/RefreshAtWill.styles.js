@@ -8,9 +8,11 @@ import {
 export default css`
   .page-section.refresh {
     text-align: center;
+    padding-bottom: 130px;
+    background-color: #fafafa;
   }
   .page-section.refresh p {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   .refresh-image, .refresh-image-small {
     position: absolute;
@@ -28,6 +30,21 @@ export default css`
   }
   .refresh-image-small {
     background-image: url(${REFRESH_AT_WILL_SMALL});
+  }
+
+  @media only screen and (max-width: 991px) {
+    .page-section.refresh {
+      padding-bottom: 110px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .page-section.refresh {
+      padding: 35px 20px 70px 20px;
+    }
+    .page-section.refresh p {
+      margin-bottom: 40px;
+    }
   }
 
 `

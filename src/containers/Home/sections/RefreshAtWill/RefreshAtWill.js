@@ -18,19 +18,19 @@ export default class RefreshAtWill extends React.Component {
         <div className='page-section refresh'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
+              <Col xs={10} xsOffset={1} md={8} mdOffset={2} lg={6} lgOffset={3}>
                 <h2>{t('refresh.title')}</h2>
                 <p>{t('refresh.description')}</p>
               </Col>
             </Row>
             <Row>
               <Col xs={12}>
-                <div className='hidden-xs hidden-sm'>
+                <div className='hidden-xs hidden-sm hidden-md'>
                   <AspectRatio ratio='1600/800'>
                     <div className='refresh-image' />
                   </AspectRatio>
                 </div>
-                <div className='hidden-md hidden-lg'>
+                <div className='hidden-lg'>
                   <AspectRatio ratio='732/499'>
                     <div className='refresh-image-small' />
                   </AspectRatio>
