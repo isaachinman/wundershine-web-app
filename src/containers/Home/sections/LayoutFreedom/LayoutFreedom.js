@@ -24,13 +24,13 @@ export default class LayoutFreedom extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={12}>
-                <div className='hidden-xs hidden-sm'>
+              <Col xs={10} xsOffset={1} lg={12} lgOffset={0}>
+                <div className='hidden-xs hidden-sm hidden-md'>
                   <AspectRatio ratio='4707/1104'>
                     <div className='frames-row' />
                   </AspectRatio>
                 </div>
-                <div className='hidden-md hidden-lg'>
+                <div className='hidden-lg'>
                   <AspectRatio ratio='1/1'>
                     <div className='frames-grid' />
                   </AspectRatio>

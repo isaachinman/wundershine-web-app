@@ -7,18 +7,14 @@ import {
 
 export default css`
   .page-section.layout-freedom {
+    padding: 100px 0;
     background-color: #eee;
     text-align: center;
   }
   .page-section.layout-freedom p {
-    margin: 0 0 50px 0;
+    margin: 0 auto 80px auto;
+    max-width: 640px;
   }
-  @media only screen and (max-width: 767px) {
-    .page-section {
-      text-align: center !important;
-    }
-  }
-
   .frames-row, .frames-grid {
     position: absolute;
     top: 0;
@@ -35,5 +31,21 @@ export default css`
   }
   .frames-grid {
     background-image: url(${LAYOUT_FREEDOM_GRID});
+  }
+  @media only screen and (max-width: 991px) {
+    .page-section.layout-freedom {
+      padding: 90px 0 110px 0;
+    }
+    .page-section.layout-freedom p {
+      margin: 0 auto 45px auto;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .page-section.layout-freedom {
+      padding: 55px 0 85px 0;
+    }
+    .page-section.layout-freedom p {
+      margin: 0 auto 40px auto;
+    }
   }
 `
