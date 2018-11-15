@@ -18,7 +18,16 @@ export default css`
     align-items: center;
     padding: 0 0 100px 0;
   }
-  @media only screen and (max-width: 991px) {
+  .mobile {
+    display: none;
+  }
+  @media only screen and (max-width: 1199px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
     .page-section.loading {
       background-image: url(${LOADING_SLOT_MEDIUM});
       background-position: center center;

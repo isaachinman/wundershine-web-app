@@ -104,7 +104,7 @@ export default class Footer extends React.Component {
                   bizdev@wundershine.com
                 </a>
               </Col>
-              <Col sm={12} md={3}>
+              <Col xs={10} xsOffset={1} sm={12} smOffset={0} md={3}>
                 <div className='section-title'>
                   {t('footer.language')}
                 </div>

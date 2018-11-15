@@ -32,7 +32,7 @@ export default css`
       background-image: url(${HOMEPAGE_HERO_SMALL});
       background-size: 100% auto;
       background-position: center bottom;
-      min-height: 700px;
+      min-height: 840px;
       text-align: center;
     }
     .text-container {
@@ -41,10 +41,35 @@ export default css`
       margin: 0 auto;
     }
   }
+  @media only screen and (max-width: 950px) {
+    .page-section.hero {
+      min-height: 800px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .page-section.hero {
+      min-height: 760px;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .page-section.hero {
+      min-height: 730px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .page-section.hero {
+      min-height: 700px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .page-section.hero {
+      min-height: 600px;
+    }
+  }
   @media only screen and (max-width: 576px) {
     .page-section.hero {
       padding-top: 30px;
-      min-height: 500px;
+      min-height: 570px;
       background-size: 120% auto;
     }
     .text-container {
@@ -53,12 +78,17 @@ export default css`
   }
   @media only screen and (max-width: 530px) {
     .page-section.hero {
-      min-height: 460px;
+      min-height: 530px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .page-section.hero {
+      min-height: 480px;
     }
   }
   @media only screen and (max-width: 400px) {
     .page-section.hero {
-      min-height: 410px;
+      min-height: 420px;
     }
   }
   @media only screen and (max-width: 350px) {
