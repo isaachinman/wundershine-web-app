@@ -4,7 +4,8 @@ export default css`
   .page-section.cta {
     text-align: center;
     background: rgb(252,252,252);
-    background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(226,226,226,1) 61%, rgba(211,211,211,1) 100%);
+    background-color: #eaeaea;
+    padding-top: 60px;
   }
   .page-section.cta h3 {
     font-size: 44px;
@@ -23,15 +24,35 @@ export default css`
   }
   .product-title {
     font-family: 'Vollkorn', serif;
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 32px;
     color: #4b4b4b;
     margin: 10px 0;
   }
   .price {
     margin: 30px 0;
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 400;
     color: #4b4b4b;
+  }
+  @media only screen and (max-width: 991px) {
+    .page-section.cta {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .product-title {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .page-section.cta {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .product-title {
+      font-size: 26px;
+    }
+    .price {
+      font-size: 22px;
+    }
   }
 `

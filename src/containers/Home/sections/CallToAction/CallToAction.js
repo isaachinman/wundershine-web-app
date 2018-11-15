@@ -24,7 +24,7 @@ export default class CallToAction extends React.Component {
         <div className='page-section cta'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
+              <Col xs={10} xsOffset={1} md={8} mdOffset={2} lg={6} lgOffset={3}>
                 <div className='title-container'>
                   <h3>{t('cta.title')}</h3>
                   <p>{t('cta.description')}</p>
@@ -44,8 +44,7 @@ export default class CallToAction extends React.Component {
                     />
                   </AspectRatio>
                   <div className='price'>
-                    <sup>€</sup>
-                    79
+                    €79
                   </div>
                   <Button
                     text={t('cta.shopNow')}
@@ -65,8 +64,7 @@ export default class CallToAction extends React.Component {
                     />
                   </AspectRatio>
                   <div className='price'>
-                    <sup>€</sup>
-                    199
+                    €199
                   </div>
                   <Button
                     text={t('cta.shopNow')}
