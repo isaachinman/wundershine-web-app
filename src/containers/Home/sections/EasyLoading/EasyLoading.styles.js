@@ -1,7 +1,5 @@
 import css from 'styled-jsx/css'
 
-import { NAVBAR_HEIGHT } from 'components/Navbar/Navbar.styles'
-
 import {
   LOADING_SLOT,
   LOADING_SLOT_MEDIUM,
@@ -12,30 +10,39 @@ export default css`
   .page-section.loading {
     background-color: #eee;
     background-image: url(${LOADING_SLOT});
-    background-repeat:no-repeat;
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 70% center;
     background-size: cover;
-    min-height: calc(100vh - ${NAVBAR_HEIGHT + 100}px);
+    min-height: 600px;
     display: flex;
     align-items: center;
     padding: 0 0 100px 0;
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 991px) {
     .page-section.loading {
       background-image: url(${LOADING_SLOT_MEDIUM});
       background-position: center center;
       padding: 0 0 60px 0;
+      text-align: center;
     }
     h2.loading {
-      margin-top: 80%;
+      margin-top: 72%;
+    }
+    p.description {
+      max-width: 370px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   @media only screen and (max-width: 576px) {
+    h2.loading {
+      margin-top: 60%;
+    }
     .page-section.loading {
       background-image: url(${LOADING_SLOT_SMALL});
       background-size: cover;
       padding: 0 0 20px 0;
-      min-height: 400px;
+      min-height: 350px;
     }
   }
 `

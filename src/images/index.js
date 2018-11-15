@@ -20,7 +20,7 @@ export const HOMEPAGE_HERO_SMALL = `${CLOUDINARY}/v1539271997/wundershine-web-ap
 export const REFRESH_AT_WILL = `${CLOUDINARY}/v1539272012/wundershine-web-app/refresh-at-will.png`
 export const REFRESH_AT_WILL_SMALL = `${CLOUDINARY}/w_800/v1539272010/wundershine-web-app/refresh-at-will-small.png`
 
-export const LOADING_SLOT = `${CLOUDINARY}/v1539273190/wundershine-web-app/loading-slot.png`
+export const LOADING_SLOT = `${CLOUDINARY}/v1542259284/wundershine-web-app/loading-slot-2.png`
 export const LOADING_SLOT_MEDIUM = `${CLOUDINARY}/v1539271998/wundershine-web-app/loading-slot-medium.jpg`
 export const LOADING_SLOT_SMALL = `${CLOUDINARY}/v1539271999/wundershine-web-app/loading-slot-small.jpg`
 
