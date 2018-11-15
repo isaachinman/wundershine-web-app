@@ -17,9 +17,9 @@ export default class AddToQueue extends React.Component {
         <div className='page-section add-to-queue'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={5}>
+              <Col xs={12} md={4} lg={5}>
                 <div className='black-overlay' />
-                <div className='transparent-bg'>
+                <div className='text'>
                   <h2>{t('addToQueue.title')}</h2>
                   <p>{t('addToQueue.description')}</p>
                 </div>

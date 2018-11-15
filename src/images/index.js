@@ -39,7 +39,6 @@ export const WALL_PLAYLIST = `${CLOUDINARY}/v1539272001/wundershine-web-app/ipho
 
 export const ADD_TO_QUEUE = `${CLOUDINARY}/v1539271989/wundershine-web-app/add-to-your-queue.jpg`
 export const ADD_TO_QUEUE_MEDIUM = `${CLOUDINARY}/v1539271988/wundershine-web-app/add-to-your-queue-medium.jpg`
-export const ADD_TO_QUEUE_SMALL = `${CLOUDINARY}/v1539271989/wundershine-web-app/add-to-your-queue-small.jpg`
 
 export const ORDER_PACK = `${CLOUDINARY}/v1539271999/wundershine-web-app/iphone-pack-selection.png`
 
