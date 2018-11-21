@@ -78,7 +78,7 @@ export default class TheReframe extends React.Component {
             <Row>
               <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
                 <div className='reframe-image-container'>
-                  <AspectRatio ratio='1/1'>
+                  <AspectRatio ratio='1270/1192'>
                     <img
                       alt='Reframe'
                       className='reframe-image'
