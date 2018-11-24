@@ -20,5 +20,9 @@ export default css`
     h2 {
       margin-top: 35px;
     }
+    .image-container {
+      max-width: 85vw;
+      margin: 0 auto;
+    }
   }
 `

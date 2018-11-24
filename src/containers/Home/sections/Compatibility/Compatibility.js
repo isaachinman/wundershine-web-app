@@ -22,13 +22,15 @@ export default class Compatibility extends React.Component {
         <div className='page-section compatibility'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} lg={8} lgOffset={0}>
-                <AspectRatio ratio='1200/834'>
-                  <img
-                    src={COMPATIBILITY_BOX}
-                    alt={t('refresh.title')}
-                  />
-                </AspectRatio>
+              <Col xs={12} xsOffset={0} lg={8} lgOffset={0}>
+                <div className='image-container'>
+                  <AspectRatio ratio='1200/834'>
+                    <img
+                      src={COMPATIBILITY_BOX}
+                      alt={t('refresh.title')}
+                    />
+                  </AspectRatio>
+                </div>
               </Col>
               <Col xs={10} xsOffset={1} lgOffset={0} lg={4}>
                 <h2>{t('compatibility.title')}</h2>
