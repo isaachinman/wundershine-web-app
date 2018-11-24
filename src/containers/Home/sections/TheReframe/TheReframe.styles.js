@@ -3,9 +3,9 @@ import css from 'styled-jsx/css'
 export default css`
   .page-section.reframe {
     text-align: center;
-    background: rgb(252,252,252);
-    background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(244,244,244,1) 37%, rgba(226,226,226,1) 61%, rgba(211,211,211,1) 100%);
-    padding-bottom: 100px;
+    background-color: #f4f4f4;
+    padding-top: 110px;
+    padding-bottom: 130px;
   }
   p.description {
     max-width: 440px;
@@ -13,7 +13,7 @@ export default css`
   }
   .reframe-image-container {
     position: relative;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 45px auto;
     max-width: 600px;
   }
   img.reframe-image {
@@ -22,8 +22,8 @@ export default css`
 
   .color-selector {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     margin: 0 6px;
     border-radius: 50%;
     padding: 4px;
@@ -35,6 +35,9 @@ export default css`
   .color-selector:hover {
     opacity: 0.8;
     border: 2px solid transparent;
+  }
+  .color-selector:focus {
+    outline: none;
   }
 
   .color-selector.walnut {
@@ -54,14 +57,9 @@ export default css`
     border: 2px solid #ccc;
   }
 
-  @media only screen and (max-width: 767px) {
-    .page-section.reframe {
-      background: rgb(252,252,252);
-      background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(244,244,244,1) 60%, rgba(226,226,226,1) 80%, rgba(211,211,211,1) 100%);
-    }
-  }
   @media only screen and (max-width: 576px) {
     .page-section.reframe {
+      padding-top: 50px;
       padding-bottom: 50px;
     }
   }

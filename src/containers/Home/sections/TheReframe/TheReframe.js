@@ -43,8 +43,11 @@ export default class TheReframe extends React.Component {
   }
 
   changeSelected = (option) => {
-    this.setState({ selected: option.value })
-    this.setLoading(true)
+    const { selected } = this.state
+    if (option.value !== selected) {
+      this.setState({ selected: option.value })
+      this.setLoading(true)
+    }
   }
 
   setLoading = (loading) => {
@@ -66,11 +69,26 @@ export default class TheReframe extends React.Component {
       <React.Fragment>
         <style jsx>{baseStyles}</style>
         <style jsx>{styles}</style>
+        <style jsx global>
+          {`
+            .unstyled-tooltip {
+              font-size: 16px !important;
+              color: #797979 !important;
+              background-color: transparent !important;
+              padding: 0 !important;
+            }
+            .unstyled-tooltip:after {
+              height: 0 !important;
+              border-top-color: transparent !important;
+              border: none !important;
+            }
+          `}
+        </style>
 
         <div className='page-section reframe'>
           <Grid>
             <Row>
-              <Col xs={12}>
+              <Col xs={10} xsOffset={1} sm={12} smOffset={0}>
                 <h2>{t('reframe.title')}</h2>
                 <p className='description'>{t('reframe.description')}</p>
               </Col>
@@ -93,7 +111,7 @@ export default class TheReframe extends React.Component {
             </Row>
             <Row>
               <Col xs={10} xsOffset={1} md={6} mdOffset={3}>
-                <Tooltip effect='solid' />
+                <Tooltip effect='solid' className='unstyled-tooltip' />
                 {Object.keys(options).map(color => (
                   <div
                     key={`reframe-color-${color}`}
