@@ -8,6 +8,7 @@ import {
 
 export default css`
   .page-section.whats-showing {
+    margin-top: -2px;
     padding: 0;
     background-image: url(${WHATS_SHOWING});
     background-repeat:no-repeat;
@@ -16,7 +17,7 @@ export default css`
   }
   .page-section.whats-showing-mobile {
     text-align: center;
-    padding: 15px 0 40px 0;
+    padding: 0 0 25px 0;
   }
   .whats-showing-text {
     min-height: 640px;
