@@ -45,15 +45,15 @@ export default css`
   }
   @media only screen and (max-width: 767px) {
     .page-section.wall-playlist {
-      padding: 50px 0 70px 0;
+      padding: 30px 0 70px 0;
     }
     .wall-playlist-img-container {
-      margin: 30px auto;
+      margin: 50px auto 30px auto;
     }
     img.store-icon {
-      width: calc(50% - 20px);
+      width: calc(50% - 40px);
       height: auto;
-      margin: 10px;
+      margin: 20px;
     }
   }
 `
