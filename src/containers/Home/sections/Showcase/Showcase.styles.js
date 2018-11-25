@@ -32,6 +32,7 @@ export default css`
   @media only screen and (max-width: 576px) {
     .page-section.showcase .showcase-container {
       padding: 0;
+      margin: 0 -10px;
     }
   }
 `
