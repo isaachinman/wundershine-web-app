@@ -21,9 +21,12 @@ export default css`
     color: #474747;
   }
   @media only screen and (max-width: 991px) {
+    .text {
+      padding: 0 15px;
+    }
     .page-section.add-to-queue {
       background-image: url(${ADD_TO_QUEUE_MEDIUM});
-      background-position: 65% 100%;
+      background-position: 55% 100%;
       min-height: 540px;
     }
     h2 {
@@ -31,6 +34,9 @@ export default css`
     }
   }
   @media only screen and (max-width: 576px) {
+    .page-section.add-to-queue {
+      background-position: 75% 100%;
+    }
     h2 {
       margin-top: 120px;
     }
