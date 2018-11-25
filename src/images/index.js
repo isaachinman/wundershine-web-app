@@ -47,6 +47,7 @@ export const ADD_PHOTOS_SMALL = `${CLOUDINARY}/v1539271995/wundershine-web-app/h
 
 export const LAYOUT_FREEDOM_ROW = `${CLOUDINARY}/w_1800/v1539272001/wundershine-web-app/layout-freedom-row.png`
 export const LAYOUT_FREEDOM_GRID = `${CLOUDINARY}/v1539274241/wundershine-web-app/layout-freedom-grid.png`
+export const LAYOUT_FREEDOM_TILED_WALL = `${CLOUDINARY}/v1543114774/wundershine-web-app/tiled_wall.png`
 
 export const SHOWCASE = `${CLOUDINARY}/w_1400/v1539272012/wundershine-web-app/showcase-table.jpg`
 

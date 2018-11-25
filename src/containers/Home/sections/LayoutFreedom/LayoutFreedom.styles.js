@@ -3,12 +3,14 @@ import css from 'styled-jsx/css'
 import {
   LAYOUT_FREEDOM_ROW,
   LAYOUT_FREEDOM_GRID,
+  LAYOUT_FREEDOM_TILED_WALL,
 } from 'images'
 
 export default css`
   .page-section.layout-freedom {
     padding: 100px 0;
     background-color: #eee;
+    background-image: url(${LAYOUT_FREEDOM_TILED_WALL});
     text-align: center;
   }
   .page-section.layout-freedom p {
