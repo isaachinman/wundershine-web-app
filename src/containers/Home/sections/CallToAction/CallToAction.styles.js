@@ -17,7 +17,14 @@ export default css`
     border-bottom: 1px solid rgba(0,0,0,0.1);
   }
   .page-section.cta .product-container {
-    padding: 30px;
+    padding: 30px 60px;
+    max-width: 360px;
+  }
+  .page-section.cta .product-container.left {
+    margin: 0 0 0 auto;
+  }
+  .page-section.cta .product-container.right {
+    margin: 0 auto 0 0;
   }
   .page-section.cta img.reframe-product {
     margin: 15px 0 0 0;
@@ -27,6 +34,11 @@ export default css`
     font-size: 32px;
     color: #4b4b4b;
     margin: 10px 0;
+  }
+  p.description {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .price {
     margin: 30px 0;
@@ -38,6 +50,10 @@ export default css`
     .page-section.cta {
       padding-left: 30px;
       padding-right: 30px;
+    }
+    .page-section.cta .product-container {
+      padding: 30px;
+      max-width: none;
     }
     .product-title {
       font-size: 30px;

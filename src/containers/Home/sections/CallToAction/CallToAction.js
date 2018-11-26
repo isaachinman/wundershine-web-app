@@ -32,11 +32,11 @@ export default class CallToAction extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={10} xsOffset={1} md={6} mdOffset={0} lg={4} lgOffset={2}>
-                <div className='product-container'>
+              <Col xs={10} xsOffset={1} md={6} mdOffset={0}>
+                <div className='product-container left'>
                   <div className='product-title'>{t('products.reframe.title')}</div>
-                  <p><i>{t('products.reframe.description')}</i></p>
-                  <AspectRatio ratio='500/735' style={{ maxWidth: 300, margin: '0 auto' }}>
+                  <p className='description'><i>{t('products.reframe.description')}</i></p>
+                  <AspectRatio ratio='500/735' style={{ maxWidth: 320, margin: '0 auto' }}>
                     <img
                       alt={t('products.reframe.title')}
                       className='reframe-product'
@@ -52,11 +52,11 @@ export default class CallToAction extends React.Component {
                   />
                 </div>
               </Col>
-              <Col xs={10} xsOffset={1} md={6} mdOffset={0} lg={4}>
-                <div className='product-container'>
+              <Col xs={10} xsOffset={1} md={6} mdOffset={0}>
+                <div className='product-container right'>
                   <div className='product-title'>{t('products.reframeThreePack.title')}</div>
-                  <p><i>{t('products.reframeThreePack.description')}</i></p>
-                  <AspectRatio ratio='910/1337' style={{ maxWidth: 300, margin: '0 auto' }}>
+                  <p className='description'><i>{t('products.reframeThreePack.description')}</i></p>
+                  <AspectRatio ratio='910/1337' style={{ maxWidth: 320, margin: '0 auto' }}>
                     <img
                       alt={t('products.reframeThreePack.title')}
                       className='reframe-product'
