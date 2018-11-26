@@ -30,7 +30,7 @@ export default class RefreshAtWill extends React.Component {
                     <div className='refresh-image' />
                   </AspectRatio>
                 </div>
-                <div className='hidden-lg'>
+                <div className='hidden-lg refresh-image-small-container'>
                   <AspectRatio ratio='732/499'>
                     <div className='refresh-image-small' />
                   </AspectRatio>

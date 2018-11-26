@@ -28,6 +28,9 @@ export default css`
   .refresh-image {
     background-image: url(${REFRESH_AT_WILL});
   }
+  .refresh-image-small-container {
+    padding: 0 25px;
+  }
   .refresh-image-small {
     background-image: url(${REFRESH_AT_WILL_SMALL});
   }
@@ -44,6 +47,9 @@ export default css`
     }
     .page-section.refresh p {
       margin-bottom: 40px;
+    }
+    .refresh-image-small-container {
+      padding: 0;
     }
   }
 
