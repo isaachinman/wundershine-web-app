@@ -42,6 +42,11 @@ export default css`
   .padded-section {
     padding: 0 20px;
   }
+  @media only screen and (max-width: 991px) {
+    .footer {
+      padding: 0 25px;
+    }
+  }
   @media only screen and (max-width: 767px) {
     .footer {
       text-align: center;
