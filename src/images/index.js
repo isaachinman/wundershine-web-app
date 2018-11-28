@@ -43,7 +43,7 @@ export const ADD_TO_QUEUE_MEDIUM = `${CLOUDINARY}/v1539271988/wundershine-web-ap
 export const ORDER_PACK = `${CLOUDINARY}/v1539271999/wundershine-web-app/iphone-pack-selection.png`
 
 export const ADD_PHOTOS = `${CLOUDINARY}/v1539271999/wundershine-web-app/hiker-mountain.jpg`
-export const ADD_PHOTOS_SMALL = `${CLOUDINARY}/v1539271995/wundershine-web-app/hiker-mountain-small.jpg`
+export const ADD_PHOTOS_SMALL = `${CLOUDINARY}/v1543425071/wundershine-web-app/hiker-mountain-small-2.jpg`
 
 export const LAYOUT_FREEDOM_ROW = `${CLOUDINARY}/w_1800/v1539272001/wundershine-web-app/layout-freedom-row.png`
 export const LAYOUT_FREEDOM_GRID = `${CLOUDINARY}/v1539274241/wundershine-web-app/layout-freedom-grid.png`

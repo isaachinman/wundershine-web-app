@@ -37,7 +37,7 @@ export default css`
   @media only screen and (max-width: 767px) {
     .page-section.add-photos {
       padding-top: 20px;
-      min-height: 520px;
+      min-height: 640px;
       align-items: flex-start;
       background-image: url(${ADD_PHOTOS_SMALL});
       background-position: 25% 100%;
