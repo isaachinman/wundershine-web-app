@@ -29,7 +29,7 @@ export default class NativeApp extends React.Component {
         <div className='container'>
           <Grid>
             <Row>
-              <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
+              <Col xs={12} xsOffset={0} md={10} mdOffset={1}>
                 <div className='hero-text'>
                   <h2>{t('title')}</h2>
                   <h1>{t('headline')}</h1>

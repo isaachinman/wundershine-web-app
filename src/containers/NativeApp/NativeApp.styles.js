@@ -3,7 +3,7 @@ import css from 'styled-jsx/css'
 export default css`
   .container {
     text-align: center;
-    padding: 50px 0;
+    padding: 55px 0;
     background-color: #fafafa;
   }
   .hero-text {
@@ -13,6 +13,7 @@ export default css`
     font-family: 'Vollkorn', serif;
     text-transform: uppercase;
     font-size: 30px;
+    line-height: 44px;
     font-weight: 400;
   }
   img.store-icon {
