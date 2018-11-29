@@ -28,15 +28,14 @@ export default class Creative extends React.Component {
                 <Col xs={10} xsOffset={1}>
                   <h2>{t('title')}</h2>
                   <h1>{t('headline')}</h1>
-                  <p>{t('descriptionParagraph1')}</p>
-                  <p>{t('descriptionParagraph2')}</p>
+                  <p>{t('descriptionParagraph')}</p>
                 </Col>
               </Row>
             </div>
             {appContent.map((app, index) => (
               <div key={app.id} className={`app-row ${index !== appContent.length - 1 ? 'with-border' : null}`}>
                 <Row>
-                  <Col xs={8} xsOffset={2} md={5} mdOffset={1}>
+                  <Col xs={8} xsOffset={2} lg={6} lgOffset={0}>
                     <AspectRatio ratio='1/1' style={{ maxWidth: 480, margin: '0 auto' }}>
                       <img
                         alt={`${app.appName} Reframe`}
@@ -44,7 +43,7 @@ export default class Creative extends React.Component {
                       />
                     </AspectRatio>
                   </Col>
-                  <Col xs={12} md={5}>
+                  <Col xs={12} lg={6}>
                     <div className='text-content'>
                       <div className='title-row'>
                         <img

@@ -48,7 +48,7 @@ export default `
   }
   @media (max-width: 576px) {
     h1 {
-    font-size: 28px;
+    font-size: 26px;
     }
     h2 {
       font-size: 22px;
@@ -70,7 +70,7 @@ export default `
   }
   @media (min-width: 768px) and (max-width: 992px) {
     h1 {
-    font-size: 35px;
+    font-size: 34px;
     }
     h2 {
       font-size: 30px;

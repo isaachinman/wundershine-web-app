@@ -4,8 +4,7 @@
   },
   "title": "Creative Tools",
   "headline": "Be both artist and curator",
-  "descriptionParagraph1": "Create your own art with the recommended third party apps below. When you add any image to your Wundershine queue, the app will let you know if the resolution is sufficient for a high quality Reframe print.",
-  "descriptionParagraph2": "When you crop an image within the app for the perfect composition, this information will update in real time. No anxiety at all.",
+  "descriptionParagraph": "Create your own art with the recommended third party apps below. When you add any image to your Wundershine queue, the app will let you know if the resolution is sufficient for a high quality Reframe print. When you crop an image within the app for the perfect composition, this information will update in real time. No anxiety at all.",
   "apps": {
     "fragment": {
       "description": "With Fragment, you have the power to transform any image in to totally unique, one-of-a-kind prismatic art you’ll want to show to everyone. Whether you’re looking to completely redefine and enhance your level of mobile photography, or simply want to add a subtle dose of creativity to your pictures, Fragment puts the artistry in your hands."

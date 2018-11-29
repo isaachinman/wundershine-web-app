@@ -2,7 +2,7 @@ import css from 'styled-jsx/css'
 
 export default css`
   .container {
-    padding: 50px 0;
+    padding: 55px 0;
   }
   .hero {
     text-align: center;
@@ -11,11 +11,12 @@ export default css`
     font-family: 'Vollkorn', serif;
     text-transform: uppercase;
     font-size: 30px;
+    line-height: 44px;
     font-weight: 400;
   }
   .app-row {
-    margin: 10px 0 0 0;
-    padding: 30px 0;
+    margin: 40px 0 0 0;
+    padding: 30px 0 60px 0;
   }
   .app-row.with-border {
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -71,11 +72,21 @@ export default css`
     margin: 0 30px 0 0;
   }
 
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 991px) {
     .title-row {
       justify-content: center;
       padding: 10px 0;
     }
+    .screens, .links, p {
+      text-align: center;
+    }
+    img.screen {
+      width: 140px;
+      max-width: calc(33% - 30px);
+      margin: 0 15px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
     .title-row img {
       max-width: 55px;
       max-height: 55px;
@@ -85,13 +96,6 @@ export default css`
     }
     .title-row h4 {
       font-size: 15px;
-    }
-    .screens, .links, p {
-      text-align: center;
-    }
-    img.screen {
-      max-width: 50px;
-      margin: 0 20px 0 0;
     }
   }
 
