@@ -36,7 +36,7 @@ export default css`
       text-align: center;
     }
     .text-container {
-      padding: 0 0 50px 0;
+      padding: 10px 0 50px 0;
       max-width: 440px;
       margin: 0 auto;
     }
@@ -69,31 +69,21 @@ export default css`
   @media only screen and (max-width: 576px) {
     .page-section.hero {
       padding-top: 30px;
-      min-height: 570px;
+      min-height: 100vw;
       background-size: 120% auto;
     }
     .text-container {
-      padding: 0 0 20px 0;
-    }
-  }
-  @media only screen and (max-width: 530px) {
-    .page-section.hero {
-      min-height: 530px;
+      padding: 0 15px 20px 15px;
     }
   }
   @media only screen and (max-width: 450px) {
     .page-section.hero {
-      min-height: 480px;
-    }
-  }
-  @media only screen and (max-width: 400px) {
-    .page-section.hero {
-      min-height: 420px;
+      min-height: calc(100vw + 20px);
     }
   }
   @media only screen and (max-width: 350px) {
     .page-section.hero {
-      min-height: 380px;
+      min-height: calc(100vw + 60px);
     }
   }
 `
