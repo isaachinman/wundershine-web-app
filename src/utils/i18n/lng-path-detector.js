@@ -7,6 +7,8 @@ module.exports = (req, res, cb) => {
       If a user has hit a subpath which does not
       match their language, give preference to
       the path, and change user language.
+
+      Disabled: https://github.com/isaachinman/wundershine-web-app/issues/28
     */
     // allLanguages.forEach((lng) => {
     //   if (req.url.startsWith(`/${lng}/`) && language !== lng) {
