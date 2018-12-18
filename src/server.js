@@ -41,7 +41,9 @@ const {
     server.get(/^\/(?!_next|static).*$/, lngPathDetector)
     server.get(`/:lng(${allLanguages.join('|')})/*`, (req, res) => {
       const { lng } = req.params
-      app.render(req, res, req.url.replace(`/${lng}`, ''), { lng })
+      const { query } = req
+      const url = parse(req.url).pathname
+      app.render(req, res, url.replace(`/${lng}`, ''), { lng, ...query })
     })
   }
 
