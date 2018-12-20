@@ -26,7 +26,7 @@ export default class RefreshAtWill extends React.Component {
             <Row>
               <Col xs={12}>
                 <div className='hidden-xs hidden-sm hidden-md'>
-                  <AspectRatio ratio='1600/800'>
+                  <AspectRatio ratio='1817/945'>
                     <div className='refresh-image' />
                   </AspectRatio>
                 </div>

@@ -17,7 +17,7 @@ export const DROPBOX_LOGO_WHITE = `${CLOUDINARY}/v1539271990/wundershine-web-app
 export const HOMEPAGE_HERO = `${CLOUDINARY}/q_100/v1542254892/wundershine-web-app/hero-homepage.jpg`
 export const HOMEPAGE_HERO_SMALL = `${CLOUDINARY}/v1539271997/wundershine-web-app/hero-homepage-small.png`
 
-export const REFRESH_AT_WILL = `${CLOUDINARY}/v1539272012/wundershine-web-app/refresh-at-will.png`
+export const REFRESH_AT_WILL = `${CLOUDINARY}/v1545323652/wundershine-web-app/refresh-at-will-2.png`
 export const REFRESH_AT_WILL_SMALL = `${CLOUDINARY}/v1539272010/wundershine-web-app/refresh-at-will-small.png`
 
 export const LOADING_SLOT = `${CLOUDINARY}/v1542259284/wundershine-web-app/loading-slot-2.png`
