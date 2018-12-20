@@ -36,12 +36,14 @@ export default class Creative extends React.Component {
               <div key={app.id} className={`app-row ${index !== appContent.length - 1 ? 'with-border' : null}`}>
                 <Row>
                   <Col xs={8} xsOffset={2} lg={6} lgOffset={0}>
-                    <AspectRatio ratio='1/1' style={{ maxWidth: 480, margin: '0 auto' }}>
-                      <img
-                        alt={`${app.appName} Reframe`}
-                        src={app.images.reframe}
-                      />
-                    </AspectRatio>
+                    <div className='reframe-image-container'>
+                      <AspectRatio ratio='1/1' style={{ maxWidth: 480, margin: '0 auto' }}>
+                        <img
+                          alt={`${app.appName} Reframe`}
+                          src={app.images.reframe}
+                        />
+                      </AspectRatio>
+                    </div>
                   </Col>
                   <Col xs={12} lg={6}>
                     <div className='text-content'>

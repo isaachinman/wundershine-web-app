@@ -15,8 +15,8 @@ export default css`
     font-weight: 400;
   }
   .app-row {
-    margin: 40px 0 0 0;
-    padding: 30px 0 60px 0;
+    margin: 80px 0 0 0;
+    padding: 30px 0 100px 0;
   }
   .app-row.with-border {
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -73,6 +73,17 @@ export default css`
   }
 
   @media only screen and (max-width: 991px) {
+    .app-row {
+      margin: 50px 0 0 0;
+      padding: 30px 0 40px 0;
+    }
+    .reframe-image-container {
+      padding: 0 30px;
+    }
+    .title-row img {
+      max-width: 52px;
+      max-height: 52px;
+    }
     .title-row {
       justify-content: center;
       padding: 10px 0;
@@ -85,8 +96,16 @@ export default css`
       max-width: calc(33% - 30px);
       margin: 0 15px;
     }
+    p.description {
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   @media only screen and (max-width: 767px) {
+    .reframe-image-container {
+      padding: 0;
+    }
     .title-row img {
       max-width: 55px;
       max-height: 55px;
