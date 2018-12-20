@@ -117,6 +117,7 @@ export default class TheReframe extends React.Component {
                     key={`reframe-color-${color}`}
                     onClick={() => this.changeSelected(options[color])}
                     onKeyDown={() => this.changeSelected(options[color])}
+                    onTouchStart={() => this.changeSelected(options[color])}
                     role='button'
                     tabIndex={0}
                     className={`color-selector ${color} ${options[selected].value === color ? 'active' : 'inactive'}`}
