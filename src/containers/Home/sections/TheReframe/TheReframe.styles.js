@@ -62,6 +62,11 @@ export default css`
       padding-top: 50px;
       padding-bottom: 50px;
     }
+    .reframe-image-container {
+      position: relative;
+      margin: 0 auto 45px auto;
+      padding: 0 10px;
+    }
   }
 
 `
