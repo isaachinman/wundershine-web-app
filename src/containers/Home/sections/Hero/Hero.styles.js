@@ -23,7 +23,7 @@ export default css`
   .text-container {
     padding: 0 0 50px 0;
     max-width: 460px;
-    margin: 0 0 0 auto;
+    margin: 0 30px 0 auto;
   }
   @media only screen and (max-width: 991px) {
     .page-section.hero {
