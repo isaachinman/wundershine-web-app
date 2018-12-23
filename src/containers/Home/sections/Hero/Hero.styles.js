@@ -13,7 +13,7 @@ export default css`
     background-image: url(${HOMEPAGE_HERO});
     background-repeat:no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: auto 100%;
     min-height: calc(100vh - ${NAVBAR_HEIGHT + 100}px);
     display: flex;
     align-items: center;
@@ -24,11 +24,6 @@ export default css`
     padding: 0 0 50px 0;
     max-width: 460px;
     margin: 0 0 0 auto;
-  }
-  @media only screen and (max-height: 799px) {
-    .page-section.hero {
-      background-size: auto 100%;
-    }
   }
   @media only screen and (max-width: 991px) {
     .page-section.hero {
