@@ -4,7 +4,7 @@ import config from 'config'
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url) => {
-  window.gtag('config', config.googleAnalytics.trackingID, {
+  window.gtag('config', config.google.analyticsID, {
     page_location: url,
   })
 }
