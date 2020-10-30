@@ -2,21 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Col, Grid, Row } from 'react-flexbox-grid'
-import config from 'config'
 import Dropdown from 'react-dropdown'
 import getYear from 'date-fns/get_year'
-import { i18nClient, withNamespaces } from 'utils/i18n'
+import { withTranslation } from 'utils/i18n'
 import Link from 'next/link'
 import { Logo } from 'components'
 
 import styles from './Footer.styles'
 
-@withNamespaces('common')
+@withTranslation('common')
 export default class Footer extends React.Component {
   render() {
     const { t } = this.props
 
-    const currentLanguage = i18nClient.languages ? i18nClient.languages[0] : null
+    const currentLanguage = 'en'
 
     return (
       <React.Fragment>
@@ -68,16 +67,16 @@ export default class Footer extends React.Component {
                 <div className='section-title'>
                   {t('footer.navigation.title')}
                 </div>
-                <Link prefetch href='/'>
+                <Link href='/'>
                   <a className='footer-link'>{t('navbar.links.home')}</a>
                 </Link>
-                <Link prefetch href='/app'>
+                <Link href='/app'>
                   <a className='footer-link'>{t('navbar.links.app')}</a>
                 </Link>
-                <Link prefetch href='/creative'>
+                <Link href='/creative'>
                   <a className='footer-link'>{t('navbar.links.creative')}</a>
                 </Link>
-                <Link prefetch href='/about'>
+                <Link href='/about'>
                   <a className='footer-link'>{t('navbar.links.about')}</a>
                 </Link>
               </Col>
@@ -113,13 +112,7 @@ export default class Footer extends React.Component {
                     value: currentLanguage,
                     label: t(`languages.${currentLanguage}`),
                   } : null}
-                  options={config.translation.allLanguages.map(lng => ({
-                    value: lng,
-                    label: t(`languages.${lng}`),
-                  }))}
-                  onChange={(selectedLanguage) => {
-                    i18nClient.changeLanguage(selectedLanguage.value)
-                  }}
+                  options={[]}
                 />
               </Col>
             </Row>

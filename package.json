@@ -10,18 +10,16 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "dev": "nodemon --watch src/static/locales src/server.js",
+    "dev": "next dev",
     "lint": "eslint src && jsonlint-cli src/static/locales/*/*.json",
     "lint:fix": "eslint src --fix",
-    "build": "next build src",
-    "start": "NODE_ENV=production node src/server.js",
-    "postinstall": "yarn build"
+    "build": "next build",
+    "start": "next start"
   },
   "pre-commit": [
     "lint"
   ],
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
     "compression": "^1.7.3",
     "date-fns": "^1.29.0",
     "express": "4.16.3",
@@ -31,11 +29,12 @@
     "i18next-node-fs-backend": "2.1.0",
     "i18next-xhr-backend": "1.5.1",
     "jsonlint-cli": "^1.0.1",
-    "next": "^7.0.1",
-    "react": "^16.4.1",
+    "next": "^10.0.0",
+    "next-i18next": "^7.0.1",
+    "react": "^17.0.1",
     "react-aspect-ratio": "^1.0.31",
     "react-burger-menu": "^2.5.3",
-    "react-dom": "^16.4.1",
+    "react-dom": "^17.0.1",
     "react-dropdown": "^1.6.2",
     "react-flexbox-grid": "^2.1.2",
     "react-i18next": "8.0.6",

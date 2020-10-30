@@ -4,12 +4,12 @@ import PropTypes from 'prop-types'
 import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import { Head } from 'components'
-import { withNamespaces } from 'utils/i18n'
+import { withTranslation } from 'utils/i18n'
 
 import appContent from './app-content'
 import styles from './Creative.styles'
 
-@withNamespaces(['creative'])
+@withTranslation(['creative'])
 export default class Creative extends React.Component {
   render() {
 

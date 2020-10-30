@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { withNamespaces } from 'utils/i18n'
+import { withTranslation } from 'utils/i18n'
 
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import Link from 'next/link'
@@ -13,7 +13,7 @@ import { BURGER_NAV } from 'images'
 
 import styles from './Navbar.styles.js'
 
-@withNamespaces('common')
+@withTranslation('common')
 export default class Navbar extends React.Component {
 
   state = {
@@ -124,7 +124,7 @@ export default class Navbar extends React.Component {
               <Row middle='xs'>
                 <Col xs={6} sm={4} md={3}>
                   <div className='logo-container'>
-                    <Link prefetch href='/'>
+                    <Link href='/'>
                       <a>
                         <Logo
                           color='#232424'
@@ -136,16 +136,16 @@ export default class Navbar extends React.Component {
                 </Col>
                 <Col md={6} className='hidden-xs hidden-sm'>
                   <div className='align-center'>
-                    <Link prefetch href='/'>
+                    <Link href='/'>
                       <a className='link'>{t('navbar.links.home')}</a>
                     </Link>
-                    <Link prefetch href='/app'>
+                    <Link href='/app'>
                       <a className='link'>{t('navbar.links.app')}</a>
                     </Link>
-                    <Link prefetch href='/creative'>
+                    <Link href='/creative'>
                       <a className='link'>{t('navbar.links.creative')}</a>
                     </Link>
-                    <Link prefetch href='/about'>
+                    <Link href='/about'>
                       <a className='link'>{t('navbar.links.about')}</a>
                     </Link>
                   </div>

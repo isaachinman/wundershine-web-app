@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import AspectRatio from 'react-aspect-ratio'
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import { Head } from 'components'
-import { withNamespaces } from 'utils/i18n'
+import { withTranslation } from 'utils/i18n'
 
 import {
   APP_PRINT_STACK,
@@ -14,7 +14,7 @@ import {
 
 import styles from './NativeApp.styles'
 
-@withNamespaces(['native-app'])
+@withTranslation(['native-app'])
 export default class NativeApp extends React.Component {
   render() {
 

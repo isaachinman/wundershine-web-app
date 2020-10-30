@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Head } from 'components'
-import { withNamespaces } from 'utils/i18n'
+import { withTranslation } from 'utils/i18n'
 
 import {
   AddPhotos,
@@ -21,7 +21,7 @@ import {
   WallPlaylist,
 } from './sections'
 
-@withNamespaces(['home'])
+@withTranslation(['home'])
 export default class Home extends React.Component {
   render() {
 

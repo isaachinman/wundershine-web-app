@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 
 import { Col, Grid, Row } from 'react-flexbox-grid'
 import { Head } from 'components'
-import { withNamespaces } from 'utils/i18n'
+import { withTranslation } from 'utils/i18n'
 
 import styles from './About.styles'
 
-@withNamespaces(['about'])
+@withTranslation(['about'])
 export default class About extends React.Component {
   render() {
 
